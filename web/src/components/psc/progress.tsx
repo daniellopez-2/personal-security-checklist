@@ -324,7 +324,16 @@ export default component$(() => {
         ))}
       </div>
       {/* Something ??? */}
-      
+      <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
+        <p class="text-sm opacity-80 mb-2">
+          Next up, consider switching to more secure and
+          privacy-respecting apps and services.
+        </p>
+        <p class="text-lg">
+          View our directory of recommended software,
+          at <a class="link link-secondary font-bold" href="https://IndexBug.com">IndexBug</a>
+        </p>
+      </div>
     </div>
 
     {/* Radar Chart showing total progress per category and level */}
