@@ -9,7 +9,7 @@ export default component$(() => {
         <div class="max-w-2xl flex flex-col place-items-center">
           <p>The Ultimate</p>
           <h1 class="text-5xl font-bold">Personal Security Checklist</h1>
-          <p class="subtitle pb-6">Your guide to securing your digital life and protecting your privacy</p>
+          <p class="subtitle pb-6">Your guide to securing your digital life and protecting your data privacy</p>
           <Icon class="mb-4" icon="shield" width={120} height={120}  />
           <a href="https://indexbug.com">
             <button class="btn btn-primary btn-lg">
