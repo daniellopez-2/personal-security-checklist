@@ -11,10 +11,10 @@ export default component$(() => {
           <h1 class="text-5xl font-bold">Personal Security Checklist</h1>
           <p class="subtitle pb-6">Your guide to securing your digital life and protecting your privacy</p>
           <Icon class="mb-4" icon="shield" width={120} height={120}  />
-          <a href="https://github.com/lissy93/personal-security-checklist">
+          <a href="https://indexbug.com">
             <button class="btn btn-primary btn-lg">
               <Icon icon="github" width={20} height={20}  />
-              View on GitHub
+              Go to IndexBug
             </button>
           </a>
         </div>

@@ -64,9 +64,9 @@ export default component$(() => {
               </details>
             </li>
             <li>
-              <a href="https://github.com/lissy93/personal-security-checklist"
+              <a href="https://indexbug.com"
                 class="tooltip flex tooltip-bottom" data-tip="View / Edit Source & Data">
-                <Icon icon="github" width={16} height={16}  />GitHub
+                Indexbug
               </a>
             </li>
           </ul>
