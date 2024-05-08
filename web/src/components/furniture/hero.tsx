@@ -12,7 +12,6 @@ export default component$(() => {
           <Icon class="mb-4" icon="shield" width={120} height={120}  />
           <a href="https://www.aiappsblocks.dev/">
             <button class="btn btn-primary btn-lg">
-              <Icon icon="github" width={20} height={20}  />
               Create your Startup
             </button>
           </a>
