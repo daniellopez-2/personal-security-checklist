@@ -335,7 +335,7 @@ export default component$(() => {
             <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev/">AI Blocks</a>
         </p>
     </div>
-    </div>
+  
 
     {/* Radar Chart showing total progress per category and level */}
     <div class="rounded-box bg-front shadow-md w-96 p-4">
