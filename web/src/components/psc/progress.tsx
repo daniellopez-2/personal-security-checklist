@@ -329,7 +329,7 @@ export default component$(() => {
           For more resources go
           to <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
         </p>
-        <br>
+    
         <p class="text-md">
           For more resources go
           to <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
