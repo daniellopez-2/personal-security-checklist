@@ -325,14 +325,14 @@ export default component$(() => {
       </div>
       {/* Something ??? */}
       <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
-      <p class="text-md">
-          For more resources go
-          to <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
+      <p class="text-lg mb-2">
+          For more resources{" "}
+           <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
         </p>
     
-        <p class="text-md">
-          For more resources go
-          to <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
+        <p class="text-lg">
+          Launch your Web App{" "}
+          <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev">Ai Blocks</a>
         </p>
       </div>
     </div>
