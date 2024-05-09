@@ -326,14 +326,15 @@ export default component$(() => {
       {/* Something ??? */}
       <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
         <p class="text-md">
-          Create your Startup in weeks: 
-           <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev/">AI Blocks</a>
+            For more resources go to:&nbsp;
+            <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
         </p>
+        <div class="py-2"></div> <!-- This adds a spacer line between the paragraphs -->
         <p class="text-md">
-          For more resources go to: 
-           <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
+            Create your Startup in weeks:&nbsp;
+            <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev/">AI Blocks</a>
         </p>
-      </div>
+    </div>
     </div>
 
     {/* Radar Chart showing total progress per category and level */}
