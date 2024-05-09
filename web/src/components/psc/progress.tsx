@@ -332,7 +332,7 @@ export default component$(() => {
     
         <p class="text-lg">
           Launch your Web App{" "}
-          <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev">Ai Blocks</a>
+          <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev">AI Blocks</a>
         </p>
       </div>
     </div>
