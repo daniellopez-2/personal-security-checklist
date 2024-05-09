@@ -329,7 +329,7 @@ export default component$(() => {
             For more resources go to:&nbsp;
             <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
         </p>
-        <div class="py-2"></div> <!-- This adds a spacer line between the paragraphs -->
+        <br> <!-- This adds a line break between the paragraphs -->
         <p class="text-md">
             Create your Startup in weeks:&nbsp;
             <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev/">AI Blocks</a>
