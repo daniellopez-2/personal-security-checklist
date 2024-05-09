@@ -325,13 +325,13 @@ export default component$(() => {
       </div>
       {/* Something ??? */}
       <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
-        <p class="text-sm opacity-80 mb-2">
-          Next up, consider switching to more secure and
-          privacy-respecting apps and services.
+        <p class="text-md">
+          Create your Startup in weeks: 
+           <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev/">AI Blocks</a>
         </p>
-        <p class="text-lg">
-          View our directory of recommended software,
-          at <a class="link link-secondary font-bold" href="https://IndexBug.com">IndexBug</a>
+        <p class="text-md">
+          For more resources go to: 
+           <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
         </p>
       </div>
     </div>
