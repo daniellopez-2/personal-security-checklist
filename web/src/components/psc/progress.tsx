@@ -325,17 +325,16 @@ export default component$(() => {
       </div>
       {/* Something ??? */}
       <div class="p-4 rounded-box bg-front shadow-md w-96 flex-grow">
-        <p class="text-md">
-            For more resources go to:&nbsp;
-            <a class="link link-secondary font-semibold" href="https://IndexBug.com">IndexBug</a>
+        <p class="text-sm opacity-80 mb-2">
+          Next up, consider switching to more secure and
+          privacy-respecting apps and services.
         </p>
-        <br> <!-- This adds a line break between the paragraphs -->
-        <p class="text-md">
-            Create your Startup in weeks:&nbsp;
-            <a class="link link-secondary font-semibold" href="https://www.aiappsblocks.dev/">AI Blocks</a>
+        <p class="text-lg">
+          View our directory of recommended software,
+          at <a class="link link-secondary font-bold" href="https://IndexBug.com">IndexBug</a>
         </p>
+      </div>
     </div>
-  
 
     {/* Radar Chart showing total progress per category and level */}
     <div class="rounded-box bg-front shadow-md w-96 p-4">
