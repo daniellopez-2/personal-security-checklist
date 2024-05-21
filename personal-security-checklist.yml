@@ -1,1973 +1,1907 @@
-- title: Authentication
-  slug: authentication
-  description: Securing your online account login credentials
+- title: Directories
+  slug: directories
+  description: Listing directories. Think of it like yellow pages, but for tools and apps.
   icon: password
-  color: yellow
+  color: white
   intro: >-
-    Most reported data breaches are caused by the use of weak, default or stolen passwords
-    (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)).
-    Use long, strong and unique passwords, manage them in a secure password manager, enable
-    2-factor authentication, keep on top of breaches and take care while logging into your accounts.
+    The goal of Startup Directories is to inform people of what startups are out there, and to help people find what apps they could possibly need based on their filters or search terms. 
+    Startup Directories usually have a lot of traffic passing through them, so these directories are some of the best places to start with digital marketing and branding. 
+    To top it all off, they help a lot with widening your online presence.
   checklist:
-  - point: Use a Strong Password
+  - point: IndexBug
     priority: Essential
     details: >-
-      If your password is too short, or contains dictionary words, places or names- then it can be easily
-      cracked through brute force, or guessed by someone. The easiest way to make a strong password, is by
-      making it long (12+ characters)- consider using a 'passphrase', made up of many words. Alternatively,
-      use a password generator to create a long, strong random password. Have a play with
-      [HowSecureIsMyPassword.net](https://howsecureismypassword.net), to get an idea of how quickly common
-      passwords can be cracked. Read more about creating strong passwords:
-      [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
+      Domain Authority: 5
+      Monthly visits: 1k
 
-  - point: Don't reuse Passwords
+
+      A curated directory for entrepreneurs featuring top apps, tools, courses, and blogs. 
+      Discover reliable resources with ease, thanks to our clutter-free, user-friendly interface.
+    link: https://indexbug.com/
+
+  - point: Micro Launch
     priority: Essential
     details: >-
-      If someone was to reuse a password, and one site they had an account with suffered a leak, then a
-      criminal could easily gain unauthorized access to their other accounts. This is usually done through
-      large-scale automated login requests, and it is called Credential Stuffing. Unfortunately this is all
-      too common, but it's simple to protect against- use a different password for each of your online accounts
+      Domain Authority: 10
+      Monthly visits: 5k
 
-  - point: Use a Secure Password Manager
+
+      A modern launch platform for early products: get feedback, traction and first customers over a month. 
+      Both ideas and product are scored separately. Your products get eventually roasted or boosted.
+    link: https://microlaunch.net/
+
+  - point: Futurepedia
     priority: Essential
     details: >-
-      For most people it is going to be near-impossible to remember hundreds of strong and unique passwords.
-      A password manager is an application that generates, stores and auto-fills your login credentials for you.
-      All your passwords will be encrypted against 1 master passwords (which you must remember, and it should be
-      very strong). Most password managers have browser extensions and mobile apps, so whatever device you are on,
-      your passwords can be auto-filled. A good all-rounder is
-      [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), or see
-      [Recommended Password Managers](https://awesome-privacy.xyz/essentials/password-managers)
+      Domain Authority: 70
+      Monthly visits: 10k
 
-  - point: Avoid sharing passwords
+
+      An AI tools listing platform. Think of it like a directory for startups, with a lot of information.
+    link: https://www.futurepedia.io/
+  
+  - point: Alternative.to
     priority: Essential
     details: >-
-      While there may be times that you need to share access to an account with another person, you should
-      generally avoid doing this because it makes it easier for the account to become compromised. If you
-      absolutely do need to share a password for example when working on a team with a shared account this
-      should be done via features built into a password manager.
+      Domain Authority: 79.0
+      Monthly visits: 6M
 
-  - point: Enable 2-Factor Authentication
+
+      A place where people can find alternatives for apps and softwares. If you have competitors, list your product here.
+    link: https://www.alternativeto.net/
+
+  - point: Betalist
     priority: Essential
     details: >-
-      2FA is where you must provide both something you know (a password) and something you have (such as a
-      code on your phone) to log in. This means that if anyone has got your password (e.g. through phishing,
-      malware or a data breach), they will not be able to log into your account. It's easy to get started,
-      download [an authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication)
-      onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next
-      time you log in on a new device, you will be prompted for the code that displays in the app on your phone
-      (it works without internet, and the code usually changes every 30-seconds)
+      Domain Authority: 73.0
+      Monthly visits: 153.8K
 
-  - point: Keep Backup Codes Safe
+
+      A directory of early stage startups and saas products. Submit your product and promote to to startups and early adopters.
+    link: http://betalist.com/ 
+
+  - point: SaaS Worthy
     priority: Essential
     details: >-
-      When you enable multi-factor authentication, you will usually be given several codes that you can use if
-      your 2FA method is lost, broken or unavailable. Keep these codes somewhere safe to prevent loss or
-      unauthorized access. You should store these on paper or in a safe place on disk (e.g. in offline storage
-      or in an encrypted file/drive). Don't store these in your Password Manager as 2FA sources and passwords
-      and should be kept separately.
+      Domain Authority: 72.0
+      Monthly visits: 535.2K
 
-  - point: Sign up for Breach Alerts
-    priority: Optional
+      SaaS worthy helps business find saas products for their business. Submit your software and reach more businesses.
+    link: https://www.saasworthy.com/
+
+  - point: Serchen
+    priority: Essential
     details: >-
-      After a website suffers a significant data breach, the leaked data often ends up on the internet. There
-      are several websites that collect these leaked records, and allow you to search your email address to check
-      if you are in any of their lists. [Firefox Monitor](https://monitor.firefox.com), [Have I been pwned](https://haveibeenpwned.com)
-      and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your
-      email address appears in any new data sets. It is useful to know as soon as possible when this happens, so
-      that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide
-      notification, where you can receive alerts if any email addresses under your entire domain appear (useful if
-      you use aliases for [anonymous forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding))
+      Domain Authority: 71.0
+      Monthly visits: 149.6K
 
-  - point: Shield your Password/ PIN
-    priority: Optional
+      Searchen is a directory of the best saas, paas, and best cloud services that connects consumers, and buyers with makers.
+    link: https://www.serchen.com/
+
+  - point: Dynamic Business
+    priority: Essential
     details: >-
-      When typing your password in public places, ensure you are not in direct line of site of a CCTV camera and
-      that no one is able to see over your shoulder. Cover your password or pin code while you type, and do not
-      reveal any plain text passwords on screen
+      Domain Authority: 71.0
+      Monthly visits: 46.7K
 
-  - point: Update Critical Passwords Periodically
-    priority: Optional
+      A startup news site that covers startups stories and product launches. You can pitch your story here and promote your product.
+    link: https://dynamicbusiness.com/
+
+  - point: SaaSHub
+    priority: Essential
     details: >-
-      Database leaks and breaches are common, and it is likely that several of your passwords are already somewhere
-      online. Occasionally updating passwords of security-critical accounts can help mitigate this. But providing
-      that all your passwords are long, strong and unique, there is no need to do this too often- annually should be
-      sufficient. Enforcing mandatory password changes within organisations is [no longer recommended](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes),
-      as it encourages colleagues to select weaker passwords
+      Domain Authority: 70.0
+      Monthly visits: 1M
 
-  - point: Don’t save your password in browsers
-    priority: Optional
+      SaaS hub is a saas directory to find the saas products, their reviews and alternatives. 
+    link: http://saashub.com/
+
+  - point: Sidebar
+    priority: Essential
     details: >-
-      Most modern browsers offer to save your credentials when you log into a site. Don’t allow this, as they are
-      not always encrypted, hence could allow someone to gain access into your accounts. Instead use a dedicated
-      password manager to store (and auto-fill) your passwords
+      Domain Authority: 70.0
+      Monthly visits: 56.8K
 
-  - point: Avoid logging in on someone else’s device
-    priority: Optional
+      Curation of the five best design links, every weekday. If your saas helps designers, you can submit your post on the site.
+    link: https://sidebar.io/
+
+  - point: Startup Ranking
+    priority: Essential
     details: >-
-      Avoid logging on other people's computer, since you can't be sure their system is clean. Be especially cautious
-      of public machines, as malware and tracking is more common here. Using someone else's device is especially
-      dangerous with critical accounts like online banking. When using someone else's machine, ensure that you're in a
-      private/ incognito session (Use Ctrl+Shift+N/ Cmd+Shift+N). This will request browser to not save your credentials,
-      cookies and browsing history.
+      Domain Authority: 68.0
+      Monthly visits: 104.9K
 
-  - point: Avoid password hints
-    priority: Optional
+      Startup ranking is a site that curates new startups and ranks them according to importance of a startup on the internet and its social influence.
+    link: https://www.startupranking.com/
+
+  - point: SideProjectors
+    priority: Essential
     details: >-
-      Some sites allow you to set password hints. Often it is very easy to guess answers. In cases where password hints
-      are mandatory use random answers and record them in password manager (`Name of the first school: 6D-02-8B-!a-E8-8F-81`)
+      Domain Authority: 67.0
+      Monthly visits: 67.5K
 
-  - point: Never answer online security questions truthfully
-    priority: Optional
+      Sideprojectors is a place where makers can sell or showoff their projects. You can submit or advertise your product here.
+    link: https://www.sideprojectors.com/
+
+  - point: Land-book
+    priority: Essential
     details: >-
-      If a site asks security questions (such as place of birth, mother's maiden name or first car etc), don't provide
-      real answers. It is a trivial task for hackers to find out this information online or through social engineering.
-      Instead, create a fictitious answer, and store it inside your password manager. Using real-words is better than
-      random characters, [explained here](https://news.ycombinator.com/item?id=29244870)
+      Domain Authority: 67.0
+      Monthly visits: 310.6K
 
-  - point: Don’t use a 4-digit PIN
-    priority: Optional
+      Land book is a design inspiration site that features best landing pages and websites. Add your website and show off your design skills.
+    link: https://land-book.com/
+  
+  - point: Startup Stash
+    priority: Essential
     details: >-
-      Don’t use a short PIN to access your smartphone or computer. Instead, use a text password or much longer pin.
-      Numeric passphrases are easy crack, (A 4-digit pin has 10,000 combinations, compared to 7.4 million for a
-      4-character alpha-numeric code)
+      Domain Authority: 65.0
+      Monthly visits: 254.2K
 
-  - point: Avoid using SMS for 2FA
-    priority: Optional
+      Startup stash is a directory of tools, resources and their alternatives for startups and entrepreneurs.
+    link: https://startupstash.com/
+
+  - point: Pitch Wall
+    priority: Essential
     details: >-
-      When enabling multi-factor authentication, opt for app-based codes or a hardware token, if supported. SMS is
-      susceptible to a number of common threats, such as [SIM-swapping](https://www.maketecheasier.com/sim-card-hijacking)
-      and [interception](https://secure-voice.com/ss7_attacks). There's also no guarantee of how securely your phone
-      number will be stored, or what else it will be used for. From a practical point of view, SMS will only work when
-      you have signal, and can be slow. If a website or service requires the usage of a SMS number for recovery consider
-      purchasing a second pre-paid phone number only used for account recovery for these instances.
+      Domain Authority: 64.0
+      Monthly visits: 70.8K
 
-  - point: Avoid using your PM to Generate OTPs
-    priority: Advanced
+      A community of tech enthusiasts and early adopters. Submit your product if you are looking for valuable feedback.
+    link: https://pitchwall.co/
+
+  - point: eBool
+    priority: Essential
     details: >-
-      Many password managers are also able to generate 2FA codes. It is best not to use your primary password manager
-      as your 2FA authenticator as well, since it would become a single point of failure if compromised. Instead use a
-      dedicated [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) on your phone or laptop
+      Domain Authority: 62.0
+      Monthly visits: 72.4K
 
-  - point: Avoid Face Unlock
-    priority: Advanced
+      A directory of saas, apps, and services for startups. List your saas here and reach out to founders looking for products to run their business.
+    link: https://www.ebool.com/
+
+  - point: Webdesigner News
+    priority: Essential
     details: >-
-      Most phones and laptops offer a facial recognition authentication feature, using the camera to compare a snapshot
-      of your face with a stored hash. It may be very convenient, but there are numerous ways to [fool it](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/)
-      and gain access to the device, through digital photos and reconstructions from CCTV footage. Unlike your password-
-      there are likely photos of your face on the internet, and videos recorded by surveillance cameras
+      Domain Authority: 61.0
+      Monthly visits: 26.2K
 
-  - point: Watch out for Keyloggers
-    priority: Advanced
+      Web desginer news is a repository of tools, articles and resources for designers. If you saas helps designers, write an article and submit on the site
+    link: https://webdesignernews.com/
+
+  - point: SaasGenius
+    priority: Essential
     details: >-
-      A hardware [keylogger](https://en.wikipedia.org/wiki/Hardware_keylogger) is a physical device planted between
-      your keyboard and the USB port, which intercepts all key strokes, and sometimes relays data to a remote server.
-      It gives a hacker access to everything typed, including passwords. The best way to stay protected, is just by
-      checking your USB connection after your PC has been unattended. It is also possible for keyloggers to be planted
-      inside the keyboard housing, so look for any signs that the case has been tampered with, and consider bringing your
-      own keyboard to work. Data typed on a virtual keyboard, pasted from the clipboard or auto-filled by a password
-      manager can not be intercepted by a hardware keylogger.
+      Domain Authority: 60.0
+      Monthly visits: 144.9K
 
-  - point: Consider a Hardware Token
-    priority: Advanced
+      A site that helps people to make informed purchasing decisions about saas products. List your saas and reach potential customers.
+    link: https://www.saasgenius.com/
+
+  - point: Startup guys
+    priority: Essential
     details: >-
-      A U2F/ FIDO2 security key is a USB (or NFC) device that you insert while logging in to an online service, in to
-      verify your identity, instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and
-      [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits,
-      since the browser communicates directly with the device and cannot be fooled as to which host is requesting
-      authentication, because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is
-      a good explanation of the security of using FIDO U2F tokens. Of course it is important to store the physical key
-      somewhere safe, or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled
+      Domain Authority: 58.0
+      Monthly visits: 43.1K
 
-  - point: Consider Offline Password Manager
-    priority: Advanced
+      A site that shares startup ideas, startup news and resources for startup founders. Submit your saas if it helps startup founders and makers.
+    link: https://www.startupguys.net/
+
+  
+  - point: Makerlog
+    priority: Essential
     details: >-
-      For increased security, an encrypted offline password manager will give you full control over your data.
-      [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) is a popular choice, with lots of [plugins](https://[KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass).info/plugins.html) and
-      community forks with additional compatibility and functionality. Popular clients include: [KeePassXC](https://keepassxc.org)
-      (desktop), [KeePassDX](https://www.keepassdx.com) (Android) and [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731)
-      (iOS). The drawback being that it may be slightly less convenient for some, and it will be up to you to back it up,
-      and store it securely
+      Domain Authority: 57.0
+      Monthly visits: 29.3K
 
-  - point: Consider Unique Usernames
-    priority: Advanced
+      A community of makers building products publicly, together. Join the community, add your product and build together.
+    link: https://getmakerlog.com/
+
+  - point: Peerlist
+    priority: Essential
     details: >-
-      Having different passwords for each account is a good first step, but if you also use a unique username, email or
-      phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest
-      method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where
-      [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see
-      [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)). Usernames are easier,
-      since you can use your password manager to generate, store and auto-fill these. Virtual phone numbers can be generated
-      through your VOIP provider
-  softwareLinks:
-    - title: Password Managers
-      url: https://github.com/Lissy93/awesome-privacy#password-managers
-    - title: 2-Factor Authentication
-      url: https://github.com/Lissy93/awesome-privacy#2-factor-authentication
+      Domain Authority: 53.0
+      Monthly visits: 254.5K
 
-- title: Web Browsing
-  slug: web-browsing
-  description: Avoiding tracking, censorship, and data collection online
+      Peerlist is a community where you can launch a new product 1st of every month and your product will be shown for the whole month
+    link: https://peerlist.io/ 
+
+
+  - point: WIP
+    priority: Essential
+    details: >-
+      Domain Authority: 53.0
+      Monthly visits: 32.2K
+
+      A community of makers who help each other build and ship projects. Join the community, add your product and build together.
+    link: https://wip.co/
+  
+  - point: BetaBound
+    priority: Essential
+    details: >-
+      Domain Authority: 52.0
+      Monthly visits: 51.8K
+
+      A community of beta testers who will give valulable feedback to your product. Submit your product if you are in beta
+    link: https://www.betabound.com/ 
+
+
+  - point: Nocode Devs
+    priority: Essential
+    details: >-
+      Domain Authority: 51.0
+      Monthly visits: 28.7K
+
+      Nocodedevs is a directory of nocode tools that helps makers to build, market and grow their startup
+    link: https://www.nocodedevs.com/ 
+
+
+  - point: Dev hunt
+    priority: Essential
+    details: >-
+      Domain Authority: 51.0
+      Monthly visits: 64.5K
+
+      Devhunt is a launch platform for dev tools. Launch your saas if you’re building for developers
+    link: https://devhunt.org/
+
+  - point: No Code Founders
+    priority: Essential
+    details: >-
+      Domain Authority: 49.0
+      Monthly visits: 51.7K
+
+      A directory of tools that helps founders buils startups using nocode. If you're building a saas that helps nocode makers, list here.
+    link: https://nocodefounders.com/ 
+
+
+  - point: Launching Next
+    priority: Essential
+    details: >-
+      Domain Authority: 49.0
+      Monthly visits: 41.6K
+
+      Launcing next is a directory of 39,000+ side projects and startups. Submit your startup here and reach 1000s of potential users
+    link: http://launchingnext.com/ 
+
+
+  - point: TechPluto
+    priority: Essential
+    details: >-
+      Domain Authority: 48.0
+      Monthly visits: 115.9K
+
+      Techpluto is a startup news site that covers news about fundings, startup acquisitions, product launches, and product reviews
+    link: https://www.techpluto.com/
+
+
+  - point: Startup Tracker
+    priority: Essential
+    details: >-
+      Domain Authority: 44.0
+      Monthly visits: 11.2K
+
+      A directory of startups and saas products where visitors can add products to their lists and revisit them
+    link: https://startuptracker.io/ 
+
+
+  - point: Landing Tools Directory
+    priority: Essential
+    details: >-
+      Domain Authority: 43.0
+      Monthly visits: 57.9K
+
+      A directory of tools that will help makers build highly converting landing pages.
+    link: https://famewall.io/landing-tools-directory/
+
+  - point: Curated Design
+    priority: Essential
+    details: >-
+      Domain Authority: 43.0
+      Monthly visits: 116K
+
+      A catalog of the best websites for designers to get inspiration. Submit your saas’s website here and show off your design skills.
+    link: https://www.curated.design/ 
+
+
+  - point: Nocode List
+    priority: Essential
+    details: >-
+      Domain Authority: 43.0
+      Monthly visits: 53.9K
+
+      Nocode list is a directory of nocode tools that helps startup founders and makers to build their products without using code
+    link: https://nocodelist.co/
+
+
+  - point: Startup Pitch
+    priority: Essential
+    details: >-
+      Domain Authority: 41.0
+      Monthly visits: 33.3K
+
+      Startup picth is a producy directory where you can pitch your startup and share its use cases with a demo video
+    link: https://thestartuppitch.com/ 
+
+
+  - point: Startup Buffer
+    priority: Essential
+    details: >-
+      Domain Authority: 38.0
+      Monthly visits: 36.1K
+
+      Startup buffer is a startup directory that helps to boost a startup or a product through their website, app, and social networks
+    link: http://startupbuffer.com/ 
+
+
+  - point: Startuplister
+    priority: Essential
+    details: >-
+      Domain Authority: 38.0
+      Monthly visits: 6.4K
+
+      Startup lister is a launch platform where makers launch new startups everyday and compete with others. Similar to product hunt.
+    link: https://startuplister.com/ 
+
+
+  - point: Startups.watch
+    priority: Essential
+    details: >-
+      Domain Authority: 37.0
+      Monthly visits: 14.2K
+
+      A directory of startups and products that are started and running in Turkey. List your startup if you’re building in Turkey.
+    link: https://startups.watch/ 
+
+
+  - point: Launched
+    priority: Essential
+    details: >-
+      Domain Authority: 37.0
+      Monthly visits: 31K
+
+      Launched is a community where makers showcase their startup/product and get feedback from early adopters.
+    link: https://launched.io/ 
+
+
+  - point: Resource FYI
+    priority: Essential
+    details: >-
+      Domain Authority: 36.0
+      Monthly visits: 13.9K
+
+      A directory where developers, designers, marketers, tech enthusiasts, and professionals discover products for their businesses.
+    link: https://resource.fyi/ 
+
+
+  - point: Tools.design 
+    priority: Essential
+    details: >-
+      Domain Authority: 36.0
+      Monthly visits: 389.2K
+
+      A directory of 1,500+ tools and resouces for designers. Submit your saas if it helps designers.
+    link: https://www.toools.design/ 
+
+
+  - point: Tool Finder
+    priority: Essential
+    details: >-
+      Domain Authority: 36.0
+      Monthly visits: 506K
+
+      A directory of productivity tools for life and work. Submit your saas it it helps individuals improve their productivity
+    link: https://toolfinder.co/
+
+  - point: Indie Page
+    priority: Essential
+    details: >-
+      Domain Authority: 35.0
+      Monthly visits: 51.8K
+
+      A repository of tech startups from entrepreneurs in topics like productivity, artificial intelligence, and more. Create an indie page and list your startup.
+    link: https://indiepa.ge/discover 
+
+
+  - point: Insanely Cool Tools
+    priority: Essential
+    details: >-
+      Domain Authority: 35.0
+      Monthly visits: 5.1K
+
+      Directory of the the best tools and resources to help makers and startup founders to build and launch their startup.
+    link: https://www.insanelycooltools.com/ 
+
+
+  - point: RobinGood
+    priority: Essential
+    details: >-
+      Domain Authority: 33.0
+      Monthly visits: 3.9K
+
+      A directory of Free or quasi-free tools handpicked and tested by Robin good.
+    link: https://tools.robingood.com/ 
+
+
+  - point: Ctrlalt.cc
+    priority: Essential
+    details: >-
+      Domain Authority: 32.0
+      Monthly visits: 15.7K
+
+      ctrl alt cc is a launt platform similar to product hunt where maker will launch new products everyday and compete with other products on the leaderboard
+    link: https://ctrlalt.cc/ 
+
+
+  - point: Dev Resources
+    priority: Essential
+    details: >-
+      Domain Authority: 31.0 (Excellent)
+      Monthly visits: 12.1K
+
+      A collection of resources for developers. Submit your product here if you’re building any saas that will help developers
+    link: https://devresourc.es/ 
+
+
+  - point: Postmake
+    priority: Essential
+    details: >-
+      Domain Authority: 31.0 (Excellent)
+      Monthly visits: 34.7K
+
+      A directory of the products, and resources used by startups. Submit your startup to reach the thousands of founders, developers, and business owners
+    link: https://postmake.io/ 
+
+
+  - point: Public API
+    priority: Essential
+    details: >-
+      Domain Authority: 30.0
+      Monthly visits: 48.4K
+
+      A collaborative list of 1400+ apis for developers. If you offer an api for developers (free or freemium) , add it to the list and get traction for your api.
+    link: https://publicapis.dev/ 
+
+
+  - point: Startup Dope
+    priority: Essential
+    details: >-
+      Domain Authority: 29.0
+      Monthly visits: 14.3K
+
+      Startup dope is an early stage startup and tech magazine where you can share news about your product or story about your startup
+    link: https://startupdope.com/
+
+
+  - point: 10 Words
+    priority: Essential
+    details: >-
+      Domain Authority: 29.0
+      Monthly visits: 24.7K
+
+      A directory of startups that are expained in less than 10 words. Submit your product if you can convey in 10 words
+    link: https://10words.io/ 
+
+
+  - point: Startup Europe
+    priority: Essential
+    details: >-
+      Domain Authority: 29.0
+      Monthly visits: 2K
+
+      The biggest directory of startups in European Union. Submit your saas if your saas is based out in EU.
+    link: https://startupeurope.net/
+
+  - point: Uneed
+    priority: Essential
+    details: >-
+      Domain Authority: 27.0
+      Monthly visits: 70.4K
+
+      Uneed is a launch platform for all kinds of tools and best suited for development tools, design tools, marketing tools, business tools, and personal life tools
+    link: https://www.uneed.best/
+
+
+  - point: Startup88
+    priority: Essential
+    details: >-
+      Domain Authority: 27.0
+      Monthly visits: 16.5K
+
+      A directory of saas and ai products where you can fill the form and pitch your product
+    link: https://startup88.com/ 
+
+
+  - point: Indie Logs
+    priority: Essential
+    details: >-
+      Domain Authority: 27.0
+      Monthly visits: 8.2K
+
+      A maker community where makers build their product in public. Join the community, add your product and build it in public.
+    link: https://www.indielogs.com/ 
+
+
+  - point: Joinly
+    priority: Essential
+    details: >-
+      Domain Authority: 27.0
+      Monthly visits: 6.9K
+
+      Joinly is a site where makers launch new products every day. You can submit or advertise your saas here.
+    link: https://www.joinly.xyz/ 
+
+
+  - point: 1000 Tools
+    priority: Essential
+    details: >-
+      Domain Authority: 25.0
+      Monthly visits: 9K
+
+      1000.tools is an exclusive list of 1000 best tools on the web. Thye list only 1000 tools. So, hurry up before the slots are filled
+    link: https://1000.tools/
+
+  - point: Startup Collections
+    priority: Essential
+    details: >-
+      Domain Authority: 24.0
+      Monthly visits: 23.6K
+
+      A directory of tools and resources for startups. Submit and showcase your saas to entrepreneurs and startup founders
+    link: https://startupcollections.com/ 
+
+
+  - point: Make.rs
+    priority: Essential
+    details: >-
+      Domain Authority: 24.0
+      Monthly visits: 16.6K
+
+      A group of makers who discuss and share their new projects. Create an account and start sharing about your product
+    link: https://make.rs/ 
+
+
+  - point: AffordHunt
+    priority: Essential
+    details: >-
+      Domain Authority: 23.0
+      Monthly visits: 26.4K
+
+      A list of affordable alternatives of saas and ai products. Submit your product, if your saas is an affordable alternative to any product. 
+    link: https://www.affordhunt.com/ 
+
+
+  - point: Startup Roulette
+    priority: Essential
+    details: >-
+      Domain Authority: 22.0
+      Monthly visits: 4.3K
+
+      A collection of startups and products where visitors can checkout cool products everytime by clicking on the randomized button 
+    link: https://startuproulette.com/ 
+
+
+  - point: Startups FYI
+    priority: Essential
+    details: >-
+      Domain Authority: 21.0
+      Monthly visits: 31.4K
+
+      Startups fyi is a directory of stories behind startups and side projects that are generating revenue
+    link: https://www.startups.fyi/
+
+  
+  - point: Apps and Websites
+    priority: Essential
+    details: >-
+      Domain Authority: 20.0
+      Monthly visits: 2.2K
+      
+
+      A directory of the best Ai and saas tools for startups and businesses. If you want to showcases your products to makers and entrepreneurs list it here
+    link: https://appsandwebsites.com/ 
+
+
+  - point: SaaS Surf
+    priority: Essential
+    details: >-
+      Domain Authority: 20.0
+      Monthly visits: 20.6K
+
+
+      A directory of the best saas tools and products for developers, designers, marketers, and makers.
+    link: https://saassurf.com/ 
+
+
+  - point: Owwly
+    priority: Essential
+    details: >-
+      Domain Authority: 20.0
+      Monthly visits: 3.9K
+
+
+      A website for indie hackers, designers, developers and makers to find their favourite product!
+    link: https://owwly.com/ 
+
+
+  - point: The Startup INC
+    priority: Essential
+    details: >-
+      Domain Authority: 17.0
+      Monthly visits: 28.4K
+
+
+      A growing directory of startups and saas products. List your product if you want to get more eyeballs from investors and customers
+    link: https://www.thestartupinc.com/ 
+
+
+  - point: Indie Projects
+    priority: Essential
+    details: >-
+      Domain Authority: 16.0
+      Monthly visits: 1k
+
+
+      A directory of products that are build by indiehackers. If you are independently building your product, list on this site
+    link: https://www.indieprojects.dev 
+
+
+  - point: IndieMaker
+    priority: Essential
+    details: >-
+      Domain Authority: 15.0
+      Monthly visits: 16.7K
+
+
+      Indie maker community where makers share their products and discuss about their journeys. Join the community and share your product.
+    link: https://indiemaker.space/ 
+
+
+  - point: Prime Indies
+    priority: Essential
+    details: >-
+      Domain Authority: 15.0
+      Monthly visits: 20.8K
+
+
+      A curation of top-tier indie products and their makers, daily. Submit your saas if you are independently building your product.
+    link: https://primeindies.com/ 
+
+
+  - point: yesRamen
+    priority: Essential
+    details: >-
+      Domain Authority: 13.0
+      Monthly visits: 2.2K
+
+
+      A website where makers get feedback and improve their products. Submit your product here if you are looking for feedback in exhange of rewards
+    link: https://yesramen.com/ 
+
+
+  - point: Website Hunt
+    priority: Essential
+    details: >-
+      Domain Authority: 13.0
+      Monthly visits: 70.9K
+
+
+      A curation of best websites on the web. Similar to product hunt where you can launch your website and compete with others.
+    link: https://www.websitehunt.co/ 
+
+
+  - point: Ecommerce Stack
+    priority: Essential
+    details: >-
+      Domain Authority: 11.0
+      Monthly visits: 5.7K
+
+      
+      A directory of tools and resouces for ecommerce startups. Submit your saas if it helps ecommerce entrepreneurs and business owners.
+    link: https://ecommerce-stack.com/
+  
+  - point: taalk
+    priority: Essential
+    details: >-
+      Domain Authority: 11.0 
+      Monthly visits: 30.6K
+
+
+      A startup news site that shares information about startup funding news, and product launches. Share your saas story and get featured here.
+    link: https://taalk.com/
+
+
+  - point: Build in Public
+    priority: Essential
+    details: >-
+      Domain Authority: 11.0 
+      Monthly visits: 2.8K
+
+
+      A community of makers who are building their startups in public. Create an account and start sharing updates about your product
+    link: https://buildinpublic.page/ 
+
+
+  - point: Buffer apps
+    priority: Essential
+    details: >-
+      Domain Authority: 10.0 
+      Monthly visits: 28.4K
+
+
+      A place where makers can launch beta products or saas products and get the feedback from the early adopters and the community
+    link: https://www.bufferapps.com/ 
+
+
+  - point: AwesomeIndie
+    priority: Essential
+    details: >-
+      Domain Authority: 9.0 
+      Monthly visits: 20.4K
+
+
+      A directory of products, startups built by indiehackers, solopreneurs and micro teams
+    link: https://awesomeindie.com/ 
+
+
+  - point: Best Affiliate Programs
+    priority: Essential
+    details: >-
+      Domain Authority: 8.0 
+      Monthly visits: 18K
+
+
+      A repository of the best affiliate programs. If you are running any affiliate program for your saas, you can list here
+    link: https://www.bestaffiliateprograms.io/ 
+
+
+  - point: Feed my startup
+    priority: Essential
+    details: >-
+      Domain Authority: 7.0 
+      Monthly visits: 10.3K
+
+
+      FeedMyStartup provides the platform for entrepreneurs and makers to showcase their unique and creative ideas to our community.
+    link: https://feedmystartup.com/ 
+
+
+  - point: Internet Is Beautiful
+    priority: Essential
+    details: >-
+      Domain Authority: 7.0 
+      Monthly visits: 8.4K
+
+
+      Best websites repository of tools, products and startups. Submit your saas website and reach out to entrepreneurs and early adopters.
+    link: https://www.internetisbeautiful.com/ 
+
+
+  - point: Hand Picked Tools
+    priority: Essential
+    details: >-
+      Domain Authority: 6.0 
+      Monthly visits: 6.3K
+
+
+      A curations of the best tools and resources to save time and money. You can list your saas for $12 (Early bird offer)
+    link: https://handpickedtools.com/ 
+
+
+  - point: MakerMove
+    priority: Essential
+    details: >-
+      Domain Authority: 6.0 
+      Monthly visits: 2.6K
+
+
+      A directory of resources for makers and startup founders. Add your saas to this list and reach indiehackers and entrepreneurs.
+    link: https://www.makermove.com/ 
+
+
+  - point: landintools
+    priority: Essential
+    details: >-
+      Domain Authority: 2.9 
+      Monthly visits: 1k
+
+
+      A directory of the best landing page tools. Submit your saas if it helps makers to build landing pages for their products.
+    link: https://tools.landin.page/ 
+
+
+  - point: Awesome Marketing Websites
+    priority: Essential
+    details: >-
+      Domain Authority: 2.7 
+      Monthly visits: 22.4K
+
+
+      A website where marketers, makers and designers can get inspiration. Submit your saas's website design here and boost your da
+    link: https://awesomemarketingwebsites.com/ 
+
+
+  - point: feedbacktools.org  
+    priority: Essential
+    details: >-
+      Domain Authority: 2.6 
+      Monthly visits: 1k
+
+
+      A curated directory of feedback tools with information and pricing. Submit here if your saas helps founders to collect feedback.
+    link: https://feedbacktools.org/
+
+
+  - point: findcool.tools
+    priority: Essential
+    details: >-
+      Domain Authority: 2.0 
+      Monthly visits: 14.3K
+
+
+      A repository of cool tool across web in various categories like AI tools, productivity tools, business tools and more. List your tool and reach more people.
+    link: https://www.findcool.tools/ 
+
+
+  - point: Indie Founders' Wall of Fame
+    priority: Essential
+    details: >-
+      Domain Authority: 2.0 
+      Monthly visits: 4.5K
+
+
+      A wall of fame for startups and saas built by indiefounders. Add your saas here and get more eyeballs to your business
+    link: https://www.spaceleads.pro/indie-founders-wall-of-fame 
+
+
+  - point: MicroSaaSDB
+    priority: Essential
+    details: >-
+      Domain Authority: 1.8 
+      Monthly visits: 4.8K
+
+
+      MicrosaasDb is a list of 1700+ early stage, money making SaaS. If you are making more than $500 every month, you can submit yout saas here
+    link: https://www.microsaasdb.com/ 
+
+
+  - point: Directory Starters
+    priority: Essential
+    details: >-
+      Domain Authority: 1.6 
+      Monthly visits: 8.6K
+
+
+      A directory of products that will help makers build directory sites. If your saas helps makers to curate or build directories, submit it here.
+    link: https://listskit.com/directorystarters/
+
+
+  - point: Business Toolvault
+    priority: Essential
+    details: >-
+      Domain Authority: 1.4 
+      Monthly visits: 7.1K
+
+
+      A directory of tools for entrepreneurs to build and run their business. Submit your saas if you want to reach satrtup founders
+    link: https://businesstoolvault.com/ 
+
+
+  - point: Once
+    priority: Essential
+    details: >-
+      Domain Authority: 1.3 
+      Monthly visits: 1K
+
+
+      A list of softwares that offer one time payment. Submit your saas if you are offering one time price.
+    link: https://once.tools/ 
+
+
+  - point: GetByte
+    priority: Essential
+    details: >-
+      Domain Authority: 1.2 
+      Monthly visits: 12.9K
+
+
+      Getbyte is a saas directory that lets makers list their products and boost visibility to their saas
+    link: https://www.getbyte.tech/
+
+
+  - point: Wewaat.com
+    priority: Essential
+    details: >-
+      Domain Authority: 1.1 
+      Monthly visits: 35.4K
+
+
+      A curation of best nocode tools on the web. Submit your saas, if it helps makers and founders build/run their startups, without using code
+    link: https://www.wewaat.com/ 
+
+
+  - point: Lazy Hunt
+    priority: Essential
+    details: >-
+      Domain Authority: 1.0 
+      Monthly visits: 1K
+
+
+      Lazy hunt is a launch platform similar to Product Hunt. You can launch your product and compete with other products that are launched on the same day
+    link: https://lazyhunt.com/ 
+
+
+  - point: SaaS Projects
+    priority: Essential
+    details: >-
+      Domain Authority: 0.7 
+      Monthly visits: 8.5K
+
+
+      Saasprojects is a directory of saas products across 30+ categories and tags
+    link: https://www.saasprojects.com/ 
+
+
+  - point: Startup Tile
+    priority: Essential
+    details: >-
+      Domain Authority: 0.7 
+      Monthly visits: 6K
+
+
+      Startup tile is a directory that curates or showcases new products, startup launches from all over the web everyday
+    link: https://startuptile.com/ 
+
+
+  - point: AllOnce.co
+    priority: Essential
+    details: >-
+      Domain Authority: 0.6 
+      Monthly visits: 1K
+
+
+      A collection of pay one lifetime softwares. If your saas offers a single time payment, add your saas here.
+    link: https://allonce.co/ 
+
+
+  - point: Indiehacker tools
+    priority: Essential
+    details: >-
+      Domain Authority: 0.3 
+      Monthly visits: 6.5K
+
+
+      A repository of tools and saas projects built by indiehackers. 
+    link: https://www.indiehacker.tools/ 
+
+
+  - point: Twelve Tools
+    priority: Essential
+    details: >-
+      Domain Authority: 0.0 
+      Monthly visits: 5.7K
+
+
+      A launch platform where 12 new products are launched every day.
+    link: https://twelve.tools/ 
+
+
+  - point: Under1000MRR
+    priority: Essential
+    details: >-
+      Domain Authority: 0.0
+      Monthly visits: 1K
+
+
+      A directory of the products that have under $1000 MRR. List your product if your MRR is less than $1000.
+    link: https://under1000mrr.tools/ 
+
+
+  - point: StartupStage
+    priority: Essential
+    details: >-
+      Domain Authority: 10.0 
+      Monthly visits: 25.1K
+      
+
+
+      StartupStage is the place to showcase your startup and compete for features across our platforms
+    link: https://startupstage.app/ 
+
+  - point: IndexBug
+    priority: Essential
+    details: >-
+      Domain Authority: 5
+      Monthly visits: 1k
+
+
+      A curated directory for entrepreneurs featuring top apps, tools, courses, and blogs. 
+      Discover reliable resources with ease, thanks to our clutter-free, user-friendly interface.
+    link: https://indexbug.com/
+
+  - point: G2
+    priority: Essential
+    details: >-
+      Domain Authority: 90
+      Monthly visits: 4.6M
+
+
+      G2 is the largest software marketplace that helps businesses choose the right software. List your saas and reach more than 90M people.
+    link: https://www.g2.com/
+
+
+- title: Product Hunt
+  slug: producthunt
+  description: Discover the latest tech products. It serves as a launchpad for startups and developers.
   icon: browser
+  color: white
   intro: >-
-    Most websites on the internet will use some form of tracking, often to gain
-    insight into their users behaviour and preferences. This data can be incredibly
-    detailed, and so is extremely valuable to corporations, governments and intellectual
-    property thieves. Data breaches and leaks are common, and deanonymizing users web
-    activity is often a trivial task.
+    Product Hunt is a premier platform for discovering the latest tech products, where innovation meets visibility.
+    It's the go-to place for tech enthusiasts, early adopters, and industry influencers to find and discuss cutting-edge tools, apps, and services.
+     
+    By launching on Product Hunt, startups and developers can gain invaluable exposure, attract early users, and receive feedback from a vibrant and engaged community.
 
-
-    There are two primary methods of tracking; stateful (cookie-based), and stateless
-    (fingerprint-based). Cookies are small pieces of information, stored in your browser
-    with a unique ID that is used to identify you. Browser fingerprinting is a highly
-    accurate way to identify and track users wherever they go online. The information
-    collected is quite comprehensive, and often includes browser details, OS, screen
-    resolution, supported fonts, plugins, time zone, language and font preferences,
-    and even hardware configurations.
-
-
-    This section outlines the steps you can take, to be better protected from threats,
-    minimise online tracking and improve privacy.
   checklist:
-  - point: Block Ads
+  - point: Benefits of Launching on Product hunt
     priority: Essential
     details: >-
-      Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement.
-      [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) is a very
-      efficient and open source browser addon,
-      developed by Raymond Hill. When 3rd-party ads are displayed on a webpage, they have the ability to
-      track you, gathering personal information about you and your habits, which can then be sold, or used
-      to show you more targeted ads, and some ads are plain malicious or fake. Blocking ads also makes pages
-      load faster, uses less data and provides a less cluttered experience.
+      1. Get feedback
+      If you want to validate your idea or want to know what features you can add, you can launch your MVP on Product Hunt and get feedback from users.
 
-  - point: Ensure Website is Legitimate
-    priority: Basic
-    details: >-
-      It may sound obvious, but when you logging into any online accounts, double check the URL is correct.
-      Storing commonly visited sites in your bookmarks is a good way to ensure the URL is easy to find. When
-      visiting new websites, look for common signs that it could be unsafe: Browser warnings, redirects,
-      on-site spam and pop-ups. You can also check a website using a tool, such as:
-      [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total),
-      [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search)
-      if you are unsure.
+      2. Social proof
+      Product Hunt badge is a great way to show that people love your product. You can add it to your landing page and build trust in your visitors.
 
-  - point: Watch out for Browser Malware
-    priority: Basic
-    details: >-
-      Your system or browser can be compromised by spyware, miners, browser hijackers, malicious redirects,
-      adware etc. You can usually stay protected, just by: ignoring pop-ups, be wary of what your clicking,
-      don't proceed to a website if your browser warns you it may be malicious. Common signs of browser malware
-      include: default search engine or homepage has been modified, toolbars, unfamiliar extensions or icons,
-      significantly more ads, errors and pages loading much slower than usual. These articles from Heimdal
-      explain [signs of browser malware](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware),
-      [how browsers get infected](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides)
-      and [how to remove browser malware](https://heimdalsecurity.com/blog/malware-removal).
+      3. Drive traffic and Boost your sales
+      Product Hunt has 4M visitors per month on average. So a product hunt launch will help you to put your product in front of these many people and drive traffic to your website.
 
-  - point: Use a Privacy-Respecting Browser
+      4. Grow your Email list
+      If you want to grow the email list size of your newsletter, you can launch a free product on product hunt & get subscribers from it.
+
+      5. Get featured in newsletters and directories for free
+      A lot of curated newsletters and directories look for tools on Product Hunt to add to their libraries. So, you can get featured in the newsletter and directories for free by launching on Product Hunt.
+      
+      6. Backlink from a high DA site
+      When you list your submission, Product Hunt will link to your product’s website which means you get a backlink from Product Hunt. And since Product Hunt has a domain rating of 91, this backlink can add authority to your site & help improve your SEO.
+
+    link: https://producthunt.com/
+  
+  - point: What type of traffic can you expect?
     priority: Essential
     details: >-
-      [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (with a few tweaks)
-      and [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser)
-      are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all
-      major operating systems. Your browser has access to everything that you do online, so if possible, avoid
-      Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data,
-      call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security,
-      for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s
-      user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
+      We’ve found that products that make it to the bottom of the front page can expect over 2,000 unique visitors on launch day. Products that hit the #1 spot can gain over 10,000 uniques.
+      While these numbers aren't exceptional, remember that conversion rates tend to be strong because Product Hunt's audience members are innovation fanatics.
+      Ten thousand site visits could turn into 1,000-3,000 genuine leads for your business. We'll expand on this point in the conversion goal section right below.
+      Plus, when you hit the top five products of the day, you're featured in the next day's Product Hunt digest email.
 
-  - point: Use a Private Search Engine
+    link: https://producthunt.com/
+  
+  - point: The rules of pre-launch
     priority: Essential
     details: >-
-      Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not
-      logged, or used against you. Consider [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo),
-      or [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant).
-      Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea)
-      tracking policies, and have a history of displaying [biased search results](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10).
-      Therefore Google, along with Bing, Baidu, Yahoo and Yandex are incompatible with anyone looking to protect
-      their privacy. It is recommended to update your [browsers default search](https://duckduckgo.com/install)
-      to a privacy-respecting search engine.
+      1. Don’t focus on upvotes. Set a real conversion goal.
+      Upvotes are mostly a vanity metric. Keep your eye on the ball. What you want are email addresses and leads.
+      While upvotes can propel your product to the top of the front page, what really matters is what you do with the traffic.
+      In short, most SaaS, service, and ecommerce startups should optimize their Product Hunt launch for capturing emails.
 
-  - point: Remove Unnecessary Browser Addons
+
+      2. Don’t launch before you have a small following
+      The biggest Product Hunt mistake is launching before your pre-launch audience is primed. The top hunters told us this over and over. Not enough people are listening when they warn about this.
+      To have a successful launch, you need at least a small group of supporters who are willing to advocate for your product. This is because Product Hunt doesn't create momentum. It amplifies momentum.
+      PH is not the channel you use to get your first set of users. It's the second channel you use—once you have that small starting set.
+      We suggest an audience of at least 400 people before launching.
+
+
+      3. The quality of engagement matters most
+      On Product Hunt, the quality of upvotes is more important than the quantity of upvotes.
+      Quality upvotes come from active PH-ers. They've been on the platform for months and engage regularly.
+      Product Hunt's algorithm appears to favor products that get engagement from established PH members.
+
+
+      4. Get a Product Hunt insider to hunt your product
+      “Hunting” is Product Hunt–speak for posting your product.
+      In the past, it was important to have a reputable Product Hunt member hunt your product. That’s because Product Hunt used to send an email to that hunter's followers when they hunted. So the larger a hunter's follower base, the more awareness a product got.
+      Product Hunt no longer sends those email notifications. Instead, they're on record suggesting that you hunt your own product. They say it’s easier, and you’ll save the time you’d spend convincing a popular hunter to post on your behalf.
+      
+
+      5. Time your emails
+      Product Hunt launches are a game of timing.
+      Blast all your channels at once—and do it first thing in the morning. You want to climb to the top of the daily rankings fast, then spread out the remainder of your votes evenly throughout the day to maintain your "vote velocity." This will keep your product ranked highly.
+      Three to four weeks in advance, send an email to your list explaining the value Product Hunt will have for your launch. Help recipients understand how important it is to you. Ask them to create an account and engage with PH. Only a small percentage of the people on your list will. That's normal. But those who do will become invested in your launch and success.
+      Schedule a follow-up email to trigger three days after your first. Ask recipients to spend two minutes upvoting and commenting on a few products on PH. While this is a big ask, it can have a significant impact on launch day. The Product Hunt algorithm favors votes from “warmed up” accounts.
+      Prepare an email for launch day. Ask your list for feedback—not upvotes. If discovered by Product Hunt, requests for upvotes can result in a demotion of your product. Schedule the email to go out in batches throughout the day. To fight post decay and sustain velocity, you want to spread out your engagement over the course of the day.
+
+    link: https://producthunt.com/
+
+  - point: Schedule the launch and create the teaser page
     priority: Essential
     details: >-
-      Extensions are able to see, log or modify anything you do in the browser, and some innocent looking
-      browser apps, have malicious intentions. Websites can see which extensions you have installed, and may
-      use this to enhance your fingerprint, to more accurately identify/ track you. Both [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) and Chrome
-      web stores allow you to check what permissions/access rights an extension requires before you install it.
-      Check the reviews. Only install extensions you really need, and removed those which you haven't used in a while.
+      One of the best ways to start promoting your Product Hunt launch is by creating a teaser page.
+      
 
-  - point: Keep Browser Up-to-date
+      A Teaser page will help you:
+
+      1. Build a following for your launch: Share the teaser page on social media platforms, communities, and your email list to build a following for your launch who get notified when you launch.
+      2. Get feedback: Share the teaser page online and collect feedback from your target audience. This will help you improve your product before the launch.
+      3. Attract more attention: By having a teaser page, you can feature your launch on the “coming soon” page of PH. This will help you gain more followers before the launch.
+
+    link: https://producthunt.com/
+
+
+
+  - point: Set a clear goal
     priority: Essential
     details: >-
-      Browser vulnerabilities are constantly being [discovered](https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=browser)
-      and patched, so it’s important to keep it up to date, to avoid a zero-day exploit. You can [see which browser
-      version you're using here](https://www.whatismybrowser.com/), or follow [this guide](https://www.whatismybrowser.com/guides/how-to-update-your-browser/)
-      for instructions on how to update. Some browsers will auto-update to the latest stable version.
+      There's nothing worse than putting a ton of time into your launch, only to not know whether the effort was worthwhile. 
+      In order to avoid wasted time and effort, have a crystal clear goal of what you want to achieve. 
+      This will inform your level of preparation, which channels to target, or even which day you want to launch.
+      For instance, launching on the weekend will be the easiest path to finishing 1st (Product of the Day), 
+      but you'll have fewer visitors and likely a different audience (i.e. more Indie Hackers vs. SaaS employees).
 
-  - point: Check for HTTPS
+      - Finish as Product of the Day
+
+      - Minimum of 800 Upvotes (which we realized was too low!)
+
+      - 300 new signups, who would bring in other users by sharing Supademos
+
+      - At least 10 paying customers directly from Product Hunt
+
+      - Backlinks and coverage from Product Hunt and affiliated websites
+
+    link: https://producthunt.com/
+
+  - point: Hunt down your launch date and choose your hunter
     priority: Essential
     details: >-
-      If you enter information on a non-HTTPS website, this data is transported unencrypted and can therefore
-      be read by anyone who intercepts it. Do not enter any data on a non-HTTPS website, but also do not let
-      the green padlock give you a false sense of security, just because a website has SSL certificate, does
-      not mean that it is legitimate or trustworthy. [HTTPS-Everywhere](https://www.eff.org/https-everywhere)
-      (developed by the [EFF](https://www.eff.org/)) used to be a browser extension/addon that automatically
-      enabled HTTPS on websites, but as of 2022 is now deprecated. In their [accouncement article](https://www.eff.org/)
-      the EFF explains that most browsers now integrate such protections. Additionally, it provides instructions
-      for [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox), Chrome, Edge and Safari browsers on how to enable their HTTPS secure protections.
+      Once you have a clear goal, it’s time to establish your timelines. Narrow down to whether you want to launch on a weekday or weekend.
 
-  - point: Use DNS-over-HTTPS
+
+      Launch on weekends:
+
+        - Your priority is to become a top 3 product of the day
+
+        - If you already have a good community around your product
+
+        - Are targeting indie hackers, consumers, or casual audiences
+
+      
+      Launch on weekdays:
+
+        - You want to create a community around your product
+        - You want to gain new paying customers
+        - You want your product to be mentioned/amplified in the Product Hunt newsletter
+
+
+      Next, you need to choose a Hunter
+      While finding a well-known Hunter isn’t a requirement (in fact, you can both build and hunt your own product), 
+      it’s generally accepted that a known Hunter will amplify your product distribution and success. 
+      Why? Your Hunter will come with an existing pool of followers, helping you hit the ground running — and also serve as social proof during launch.
+
+    link: https://producthunt.com/
+  
+  - point: Create a “Coming Soon” page
     priority: Essential
     details: >-
-      Traditional DNS makes requests in plain text for everyone to see. It allows for eavesdropping and
-      manipulation of DNS data through man-in-the-middle attacks. Whereas DNS-over-HTTPS performs DNS
-      resolution via the HTTPS protocol, meaning data between you and your DNS resolver is encrypted.
-      A popular option is [CloudFlare](https://awesome-privacy.xyz/networking/dns-providers/cloudflare)'s [1.1.1.1](https://awesome-privacy.xyz/security-tools/mobile-apps/1.1.1.1), or compare providers- it is simple to enable in-browser.
-      Note that DoH comes with its own issues, mostly preventing web filtering.
+      Create a “Coming Soon” page on Product Hunt to funnel leads towards your upcoming launch. 
+      Create an engaging “Coming Soon” page on Product Hunt with a teaser for your product. 
+      This page helps generate organic buzz and drive visitors to a page with clear intent.
+      
 
-  - point: Multi-[Session](https://awesome-privacy.xyz/communication/encrypted-messaging/session) Containers
+      For the next 14 days, link this “Coming Soon” page on your:
+
+        - Email signatures
+        - Websites header
+        - Blog posts
+
+    link: https://producthunt.com/
+
+  - point: Identify and build your distribution
     priority: Essential
     details: >-
-      Compartmentalisation is really important to keep different aspects of your browsing separate. For
-      example, using different profiles for work, general browsing, social media, online shopping etc
-      will reduce the number associations that data brokers can link back to you. One option is to make
-      use of [Firefox Containers](https://awesome-privacy.xyz/security-tools/browser-extensions/firefox-multi-account-containers)
-      which is designed exactly for this purpose.
-      Alternatively, you could
-      use different browsers for different tasks
-      ([Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser),
-      [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox),
-      [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) etc).
+      The next step is identifying your existing distribution channels to approximate how many upvotes you can expect from your existing audience.
+      In 2023, most “Product of the Day” winners ended up with 1000+ upvotes, so that’s the minimum floor you should aim for if that is the ultimate goal.
+      From there, you want to identify all of your existing audience channels, potential support sources, and the effort/work required for you to hit your benchmark for each source.
+      After tallying up your estimates, you should have a clear tally of expected upvotes and the upvote gap you’ll need to fill.
 
-  - point: Use Incognito
+      After tallying up your estimates, you should have a clear tally of expected upvotes as well as the upvote gap you'll need to fill.
+
+
+      You can deploy strategies like:
+
+      Posting thought leadership/value and plugging your launch link;
+
+      Looking for similar products on PH and reaching out to the makers for support/feedback;
+
+      Joining relevant Slack groups or communities and contributing;
+
+      Scanning keywords or conversations on Twitter about similar products;
+
+      Replying to relevant questions on Reddit, Quora, or IndieHackers with a link to your launch;
+
+      Reaching out to folks that commented/upvoted to winning products, and asking for feedback;
+
+      WhatsApp groups like ProductHunters
+
+    link: https://producthunt.com/
+
+  - point: Prep tactics for Launch Day
     priority: Essential
     details: >-
-      When using someone else's machine, ensure that you're in a private/ incognito session. This will
-      prevent browser history, cookies and some data being saved, but is not fool-proof- you can still
-      be tracked.
+      First, clear your calendar for launch day and the day after launch. A good launch will get you lots of exposure, support questions and feedback. 
+      You’ll want to make sure you have the time to exploit your launch. Next, use your calendar to time block specific tactics you’ll deploy throughout the day. 
+      For instance, block off time to send off email sequences, post on socials, reach out to your network on LinkedIn, etc.
 
-  - point: Understand Your Browser Fingerprint
+      Assess Competition
+      A few days before launch, get a pulse on your competition by looking at Product Hunt’s Coming Soon Page. 
+      This way, you don’t get surprised by GPT5 launching on the same day.
+
+      Draft up your Email Sequences and Messages
+      Prepare your email sequences or blasts — whether you’re reaching out to existing users or other companies recently launched on Product Hunt. 
+      Since Supademo works with companies across 50+ countries, we created three separate emails at different times and locations to align timing.
+
+      Prepare Launch Assets
+      Put on your creative hat and start designing all of the graphics, videos, and text you'll be adding to your launch page.
+
+      Prepare Maker Comment
+      A maker comment is a short blurb that you'll add to your Product Hunt post, 
+
+      Quickly introduce yourself
+      Describe why you're building your product
+      What problems you solve for your users (along with potential use cases)
+      And a CTA/prompt for folks to comment or leave feedback
+
+    link: https://producthunt.com/
+  
+  - point: Launch and Grind
     priority: Essential
     details: >-
-      Browser Fingerprinting is an incredibly accurate method of tracking, where a website identifies you
-      based on your device information. You can view your fingerprint at amiunique.org- The aim is to be
-      as un-unique as possible.
+      Make sure you're well rested, properly caffeinated, and ready to grind for 24 hours. A successful launch requires both tactical preparation and relentless effort during launch day.
 
-  - point: Manage Cookies
-    priority: Essential
-    details: >-
-      Clearing cookies regularly is one step you can take to help reduce websites from tracking you.
-      Cookies may also store your session token, which if captured, would allow someone to access your
-      accounts without credentials. To mitigate this you should clear cookies often.
+      To ensure you start off with a bang, make sure you start reaching out to customers and folks a few hours before 12:01am.
 
-  - point: Block Third-Party Cookies
-    priority: Essential
-    details: >-
-      Third-party cookies placed on your device by a website other than the one you’re visiting. This
-      poses a privacy risk, as a 3rd entity can collect data from your current session. This guide explains
-      how you can disable 3rd-party cookies, and you can check here ensure this worked.
+      Getting to the first three spots will create a level of organic momentum (e.g. lots of PH visitors don't scroll below the top three products) that will amplify your launch.
 
-  - point: Block Third-Party Trackers
-    priority: Essential
-    details: >-
-      Blocking trackers will help to stop websites, advertisers, analytics and more from tracking you in
-      the background. [Privacy Badger](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger),
-      [DuckDuckGo Privacy Essentials](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-essentials),
-      [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) and uMatrix (advanced)
-      are all very effective, open source tracker-blockers available for all major browsers.
+      Then throughout the day, follow through and execute on all of the tactical activities while DM'ing/reaching out to as many people as possible. Your goal is to obnoxiously shout from the rooftops and tell your story - no matter how cringe it can be.
+      
+    link: https://producthunt.com/
 
-  - point: Beware of Redirects
-    priority: Optional
-    details: >-
-      While some redirects are harmless, others, such as Unvalidated redirects are used in phishing attacks,
-      it can make a malicious link seem legitimate. If you are unsure about a redirect URL, you can check
-      where it forwards to with a tool like RedirectDetective.
-
-  - point: Do Not Sign Into Your Browser
-    priority: Optional
-    details: >-
-      Many browsers allow you to sign in, in order to sync history, bookmarks and other browsing data across
-      devices. However this not only allows for further data collection, but also increases attack surface
-      through providing another avenue for a malicious actor to get hold of personal information.
-
-  - point: Disallow Prediction Services
-    priority: Optional
-    details: >-
-      Some browsers allow for prediction services, where you receive real-time search results or URL auto-fill.
-      If this is enabled then data is sent to Google (or your default search engine) with every keypress,
-      rather than when you hit enter.
-
-  - point: Avoid G Translate for Webpages
-    priority: Optional
-    details: >-
-      When you visit a web page written in a foreign language, you may be prompted to install the Google Translate
-      extension. Be aware that Google collects all data (including input fields), along with details of the current
-      user. Instead use a translation service that is not linked to your browser.
-
-  - point: Disable Web Notifications
-    priority: Optional
-    details: >-
-      Browser push notifications are a common method for criminals to encourage you to click their link, since
-      it is easy to spoof the source. Be aware of this, and for instructions on disabling browser notifications,
-      see this article.
-
-  - point: Disable Automatic Downloads
-    priority: Optional
-    details: >-
-      Drive-by downloads is a common method of getting harmful files onto a users device. This can be mitigated
-      by disabling auto file downloads, and be cautious of websites which prompt you to download files unexpectedly.
-
-  - point: Disallow Access to Sensors
-    priority: Optional
-    details: >-
-      Mobile websites can tap into your device sensors without asking. If you grant these permissions to your
-      browser once, then all websites are able to use these capabilities, without permission or notification.
-
-  - point: Disallow Location
-    priority: Optional
-    details: >-
-      Location Services lets sites ask for your physical location to improve your experience. This should be
-      disabled in settings. Note that there are still other methods of determining your approximate location.
-
-  - point: Disallow Camera/ Microphone access
-    priority: Optional
-    details: >-
-      Check browser settings to ensure that no websites are granted access to webcam or microphone. It may also
-      be beneficial to use physical protection such as a webcam cover and microphone blocker.
-
-  - point: Disable Browser Password Saves
-    priority: Optional
-    details: >-
-      Do not allow your browser to store usernames and passwords. These can be easily viewed or accessed.
-      Instead use a password manager.
-
-  - point: Disable Browser Autofill
-    priority: Optional
-    details: >-
-      Turn off autofill for any confidential or personal details. This feature can be harmful if your browser
-      is compromised in any way. Instead, consider using your password manager's Notes feature.
-
-  - point: Protect from Exfil Attack
-    priority: Optional
-    details: >-
-      The CSS Exfiltrate attack is a method where credentials and other sensitive details can be snagged with
-      just pure CSS. You can stay protected,
-      with the [CSS Exfil Protection](https://awesome-privacy.xyz/security-tools/browser-extensions/css-exfil-protection) plugin.
-
-  - point: Deactivate ActiveX
-    priority: Optional
-    details: >-
-      ActiveX is a browser extension API that built into Microsoft IE, and enabled by default. It's not commonly
-      used anymore, but since it gives plugins intimate access rights, and can be dangerous, therefore you should
-      disable it.
-
-  - point: Disable WebRTC
-    priority: Optional
-    details: >-
-      WebRTC allows high-quality audio/video communication and peer-to-peer file-sharing straight from the
-      browser. However it can pose as a privacy leak. To learn more, check out this guide.
-
-  - point: Spoof HTML5 Canvas Sig
-    priority: Optional
-    details: >-
-      Canvas Fingerprinting allows websites to identify and track users very accurately. You can use the
-      Canvas-Fingerprint-Blocker extension to spoof your fingerprint or
-      use [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor).
-
-  - point: Spoof User Agent
-    priority: Optional
-    details: >-
-      The user agent tells the website what device, browser and version you are using. Switching user agent
-      periodically is one small step you can take to become less unique.
-
-  - point: Disregard DNT
-    priority: Optional
-    details: >-
-      Enabling Do Not Track has very limited impact, since many websites do not respect or follow this. Since
-      it is rarely used, it may also add to your signature, making you more unique.
-
-  - point: Prevent HSTS Tracking
-    priority: Optional
-    details: >-
-      HSTS was designed to help secure websites, but privacy concerns have been raised as it allowed site
-      operators to plant super-cookies. It can be disabled by visiting chrome://net-internals/#hsts in
-      Chromium-based browsers.
-
-  - point: Prevent Automatic Browser Connections
-    priority: Optional
-    details: >-
-      Even when you are not using your browser, it may call home to report on usage activity, analytics and
-      diagnostics. You may wish to disable some of this, which can be done through the settings.
-
-  - point: Enable 1st-Party Isolation
-    priority: Optional
-    details: >-
-      [First Party Isolation](https://awesome-privacy.xyz/security-tools/browser-extensions/first-party-isolation) means
-      that all identifier sources and browser state are scoped using the URL bar
-      domain, this can greatly reduce tracking.
-
-  - point: Strip Tracking Params from URLs
-    priority: Advanced
-    details: >-
-      Websites often append additional GET parameters to URLs that you click, to identify information like
-      source/referrer. You can sanitize manually,
-      or use an extension like [ClearURLs](https://awesome-privacy.xyz/security-tools/browser-extensions/clearurls) to strip tracking data
-      from URLs automatically.
-
-  - point: First Launch Security
-    priority: Advanced
-    details: >-
-      After installing a web browser, the first time you launch it (prior to configuring its privacy settings),
-      most browsers will call home. Therefore, after installing a browser, you should first disable your internet
-      connection, then configure privacy options before reenabling your internet connectivity.
-
-  - point: Use The Tor Browser
-    priority: Advanced
-    details: >-
-      The [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) Project provides a browser that encrypts and routes your traffic through multiple nodes, keeping
-      users safe from interception and tracking. The main drawbacks are speed and user experience.
-
-  - point: Disable JavaScript
-    priority: Advanced
-    details: >-
-      Many modern web apps are JavaScript-based, so disabling it will greatly decrease your browsing experience.
-      But if you really want to go all out, then it will really reduce your attack surface.
-  softwareLinks:
-    - title: Privacy Browsers
-      url: https://github.com/Lissy93/awesome-privacy#browsers
-    - title: Search Engines
-      utl: https://github.com/Lissy93/awesome-privacy#search-engines
-    - title: Browser Extensions
-      url: https://github.com/Lissy93/awesome-privacy#browser-extensions
-    - title: Browser & Bookmark Sync
-      url: https://github.com/Lissy93/awesome-privacy#browser-sync
-  color: emerald
-
-- title: Email
-  slug: email
-  description: Protecting the gateway to your online accounts
+- title: Subreddits Easy
+  slug: subreddits-easy
+  description: List your startup on relevant subreddits for exposure and feedback.
   icon: email
+  color: white
   intro: >-
-    Nearly 50 years since the first email was sent, it's still very much a big part
-    of our day-to-day life, and will continue to be for the near future. So considering
-    how much trust we put in them, it's surprising how fundamentally insecure this
-    infrastructure is. Email-related fraud
-    [is on the up](https://www.csoonline.com/article/3247670/email/email-security-in-2018.html),
-    and without taking basic measures you could be at risk.
-    
-
-    If a hacker gets access to your emails, it provides a gateway for your other
-    accounts to be compromised (through password resets), therefore email security
-    is paramount for your digital safety.
-
-
-    The big companies providing "free" email service, don't have a good reputation
-    for respecting users privacy: Gmail was caught giving
-    [third parties full access](https://www.wsj.com/articles/techs-dirty-secret-the-app-developers-sifting-through-your-gmail-1530544442)
-    to user emails and also [tracking all of your purchases](https://www.cnbc.com/2019/05/17/google-gmail-tracks-purchase-history-how-to-delete-it.html).
-    Yahoo was also caught scanning emails in real-time [for US surveillance agencies](http://news.trust.org/item/20161004170601-99f8c)
-    Advertisers [were granted access](https://thenextweb.com/insider/2018/08/29/both-yahoo-and-aol-are-scanning-customer-emails-to-attract-advertisers)
-    to Yahoo and AOL users messages to “identify and segment potential customers by picking up on contextual buying signals, and past purchases.”
+    Subreddits offer a great way to reach niche communities interested in your startup. 
+    By posting on the right subreddits, you can gain valuable insights, build a following, and increase visibility for your project.
 
   checklist:
-  - point: Have more than one email address
+  - point: SideProject
     priority: Essential
     details: >-
-      Consider using a different email address for security-critical communications from trivial mail such
-      as newsletters. This compartmentalization could reduce the amount of damage caused by a data breach,
-      and also make it easier to recover a compromised account.
+      A subreddit for sharing and receiving constructive feedback on side projects.
 
-  - point: Keep Email Address Private
+      Idea 1: Post a video of your SaaS & link to your SaaS in the comments.
+
+      Idea 2: Post the first Sales or MRR screenshot of your SaaS.
+
+      Idea 3: Ask for feedback on your SaaS/Landing Page.
+
+    link: https://www.reddit.com/r/SideProject/
+  
+  - point: startup
     priority: Essential
     details: >-
-      Do not share your primary email publicly, as mail addresses are often the starting point for most
-      phishing attacks.
+      Number of Members: 128000
 
-  - point: Keep your Account Secure
+      Reddit's space to learn the tools and skills necessary to build a successful startup. A community meant to support each other and grow through the exchange of knowledge and ideas. A rising tide lifts all ships in its wake.
+
+    link: https://www.reddit.com/r/startup/
+
+  - point: SaaS
     priority: Essential
     details: >-
-      Use a long and unique password, enable 2FA and be careful while logging in. Your email account
-      provides an easy entry point to all your other online accounts for an attacker.
+      Number of Members: 94100
 
-  - point: Disable Automatic Loading of Remote Content
+      Discussions and useful links for SaaS owners, online business owners, and more.
+
+    link: https://www.reddit.com/r/SaaS
+
+  - point: Startup_Ideas
     priority: Essential
     details: >-
-      Email messages can contain remote content such as images or stylesheets, often automatically loaded
-      from the server. You should disable this, as it exposes your IP address and device information, and
-      is often used for tracking. For more info, see [this article](https://www.theverge.com/2019/7/3/20680903/email-pixel-trackers-how-to-stop-images-automatic-download).
+      Number of Members: 71000
 
-  - point: Use Plaintext
-    priority: Optional
+      This subreddit is for sharing innovative startup ideas. Links and discussion about startups and descriptions of startups are welcome! Share ideas. Improve ideas. Expand upon other ideas. Combine ideas. Implement ideas.
+
+    link: https://www.reddit.com/r/Startup_Ideas/
+
+  - point: Entrepreneurship
+    priority: Essential
     details: >-
-      There are two main types of emails on the internet: plaintext and HTML. The former is strongly preferred
-      for privacy & security as HTML messages often include identifiers in links and inline images, which can
-      collect usage and personal data. There's also numerous risks of remote code execution targeting the HTML
-      parser of your mail client, which cannot be exploited if you are using plaintext. For more info, as well
-      as setup instructions for your mail provider, see [UsePlaintext.email](https://useplaintext.email/).
+      Number of Members: 56600
 
-  - point: Don’t connect third-party apps to your email account
-    priority: Optional
+      A subreddit for entrepreneurs who run a business & sell products or services.
+
+    link: https://www.reddit.com/r/Entrepreneurship/
+
+  - point: thesidehustle
+    priority: Essential
     details: >-
-      If you give a third-party app or plug-in full access to your inbox, they effectively have full unhindered
-      access to all your emails and their contents, which poses significant security and privacy risks.
+      Number of Members: 49200
 
-  - point: Don't Share Sensitive Data via Email
-    priority: Optional
+      r/thesidehustle is for your side hustle money making ideas. AI software, startups and passive income ideas. Marketing, Careers, eCommerce, Dropshipping, Business, Stocks, Education, Crypto, Online Tutorials, Amazon, Print on Demand, Sales, Finance.
+
+    link: https://www.reddit.com/r/thesidehustle/
+
+  - point: Growmybusiness
+    priority: Essential
     details: >-
-      Emails are very easily intercepted. Furthermore, you can’t be sure of how secure your recipient's
-      environment is. Therefore, emails cannot be considered safe for exchanging confidential information,
-      unless it is encrypted.
+      Number of Members: 46700
 
-  - point: Consider Switching to a Secure Mail Provider
-    priority: Optional
+      This is the place to find and share creative advice and strategies to grow your business.
+
+    link: https://www.reddit.com/r/Growmybusiness/
+
+  - point: Advancedentrepreneur
+    priority: Essential
     details: >-
-      Secure and reputable email providers such as [Forward Email](https://awesome-privacy.xyz/communication/encrypted-email/forward-email),
-      [ProtonMail](https://awesome-privacy.xyz/communication/mail-forwarding/protonmail),
-      and [Tutanota](https://awesome-privacy.xyz/communication/encrypted-email/tuta) allow for end-to-end
-      encryption, full privacy as well as more security-focused features. Unlike typical email providers, your
-      mailbox cannot be read by anyone but you, since all messages are encrypted.
+      Number of Members: 43000
 
-  - point: Use Smart Key
-    priority: Advanced
+      Advanced entrepreneur community for in-depth discussions about scaling businesses.
+
+    link: https://www.reddit.com/r/Advancedentrepreneur/
+
+  - point: Entrepreneurideas
+    priority: Essential
     details: >-
-      OpenPGP does not support Forward secrecy, which means if either your or the recipient's private key is
-      ever stolen, all previous messages encrypted with it will be exposed. Therefore, you should take great
-      care to keep your private keys safe. One method of doing so, is to use a USB Smart Key to sign or decrypt
-      messages, allowing you to do so without your private key leaving the USB device.
+      Number of Members: 25000
 
-  - point: Use Aliasing / Anonymous Forwarding
-    priority: Advanced
+      Share and discuss new business ideas, get feedback and refine your ideas.
+
+    link: https://www.reddit.com/r/Entrepreneurideas/
+
+  - point: SideBusiness
+    priority: Essential
     details: >-
-      Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox.
-      Effectively allowing you to use a different, unique email address for each service you sign up for. This means
-      if you start receiving spam, you can block that alias and determine which company leaked your email address.
+      Number of Members: 22000
 
-  - point: Subaddressing
-    priority: Optional
+      For discussing and sharing tips about starting and growing side businesses.
+
+    link: https://www.reddit.com/r/SideBusiness/
+
+  - point: StartupAccelerators
+    priority: Essential
     details: >-
-      An alternative to aliasing is subaddressing, where anything after the `+` symbol is omitted during mail delivery.
-      This enables you to keep track of who shared/ leaked your email address, but unlike aliasing, it will not protect
-      against your real address being revealed.
+      Number of Members: 19200
 
-  - point: Use a Custom Domain
-    priority: Advanced
+      This subreddit is for everyone who is interested in joining a startup accelerator program, has graduated from one, or has insight into the experience. This is a forum for accelerator program advocates, graduates, and MDs to share accelerator program insights and answers to those who need them! Ask questions, get answers, SHARE your stories!!!
+
+    link: https://www.reddit.com/r/StartupAccelerators/
+
+  - point: Ladybusiness
+    priority: Essential
     details: >-
-      Using a custom domain means that you are not dependent on the address assigned by your mail provider. So you can
-      easily switch providers in the future and do not need to worry about a service being discontinued.
+      Number of Members: 13400
 
-  - point: Sync with a client for backup
-    priority: Advanced
+      A place to discuss, celebrate and encourage folks who identify as women, trans and non-binary etc in the business world.
+
+    link: https://www.reddit.com/r/ladybusiness/
+
+  - point: indiehackers
+    priority: Essential
     details: >-
-      To avoid losing temporary or permanent access to your emails during an unplanned event (such as an outage or
-      account lock), Thunderbird can sync/ backup messages from multiple accounts via IMAP and store locally on your
-      primary device.
+      Number of Members: 11200
 
-  - point: Be Careful with Mail Signatures
-    priority: Advanced
+      IndieHackers is a subreddit focused on people who bootstrap their way to success by building products.
+
+    link: https://www.reddit.com/r/indiehackers/
+
+  - point: DotCom
+    priority: Essential
     details: >-
-      You do not know how secure of an email environment the recipient of your message may have. There are several
-      extensions that automatically crawl messages, and create a detailed database of contact information based upon
-      email signatures.
+      Number of Members: 8300
 
-  - point: Be Careful with Auto-Replies
-    priority: Advanced
+      A reddit community focused on helping you start an internet business.
+
+    link: https://www.reddit.com/r/DotCom/
+
+  - point: Roast my start-up
+    priority: Essential
     details: >-
-      Out-of-office automatic replies are very useful for informing people there will be a delay in replying, but all
-      too often people reveal too much information- which can be used in social engineering and targeted attacks.
+      Number of Members: 7600
 
-  - point: Choose the Right Mail Protocol
-    priority: Advanced
+      Post your start-up (or start-up idea) for other entrepreneurs to roast it. We won't hold back punches.
+
+    link: https://www.reddit.com/r/roastmystartup/
+
+  - point: Product Hunters
+    priority: Essential
     details: >-
-      Do not use outdated protocols (below IMAPv4 or POPv3), both have known vulnerabilities and out-dated security.
+      Number of Members: 6900
 
-  - point: Self-Hosting
-    priority: Advanced
+      Discussions about products on Product Hunt.
+
+    link: https://www.reddit.com/r/ProductHunters/
+
+  - point: Microsaas
+    priority: Essential
     details: >-
-      Self-hosting your own mail server is not recommended for non-advanced users, since correctly securing it is
-      critical yet requires strong networking knowledge.
+      Number of Members: 4700
 
-  - point: Always use TLS Ports
-    priority: Advanced
+      A place to change your life with micro SaaS apps.
+
+    link: https://www.reddit.com/r/microsaas/
+
+  - point: startups_promotion
+    priority: Essential
     details: >-
-      There are SSL options for POP3, IMAP, and SMTP as standard TCP/IP ports. They are easy to use, and widely
-      supported so should always be used instead of plaintext email ports.
+      Number of Members: 2000
 
-  - point: DNS Availability
-    priority: Advanced
-    details: >-
-      For self-hosted mail servers, to prevent DNS problems impacting availability- use at least 2 MX records, with
-      secondary and tertiary MX records for redundancy when the primary MX record fails.
+      Share your Startup, your Crowdfunding, your Small Business or your Project.
 
-  - point: Prevent DDoS and Brute Force Attacks
-    priority: Advanced
-    details: >-
-      For self-hosted mail servers (specifically SMTP), limit your total number of simultaneous connections, and maximum
-      connection rate to reduce the impact of attempted bot attacks.
+    link: https://www.reddit.com/r/startups_promotion/
 
-  - point: Maintain IP Blacklist
-    priority: Advanced
-    details: >-
-      For self-hosted mail servers, you can improve spam filters and harden security, through maintaining an up-to-date
-      local IP blacklist and a spam URI realtime block lists to filter out malicious hyperlinks.
-  color: teal
-  softwareLinks:
-    - title: Secure Email Providers
-      url: https://github.com/Lissy93/awesome-privacy#encrypted-email
-    - title: Mail Forwarding
-      url: https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding
-    - title: Pre-Configured Mail Servers
-      url: https://github.com/Lissy93/awesome-privacy#pre-configured-mail-servers
-    - title: Email Clients
-      url: https://github.com/Lissy93/awesome-privacy#email-clients
-
-- title: Messaging
-  slug: messaging
-  description: Keeping your communications private and secure
+- title: Top DR Directories 
+  slug: topdirectories
+  description: Highest traffic, DR directories to enhance your startup's visibility and credibility.
   icon: messaging
-  intro: ''
-  checklist:
-  - point: Only Use Fully End-to-End Encrypted Messengers
-    priority: Essential
-    details: >-
-      End-to-end encryption is a system of communication where messages are encrypted on your device and
-      not decrypted until they reach the intended recipient. This ensures that any actor who intercepts
-      traffic cannot read the message contents, nor can anybody with access to the central servers where
-      data is stored.
-
-  - point: Use only Open Source Messaging Platforms
-    priority: Essential
-    details: >-
-      If code is open source then it can be independently examined and audited by anyone qualified to do
-      so, to ensure that there are no backdoors, vulnerabilities, or other security issues.
-
-  - point: Use a "Trustworthy" Messaging Platform
-    priority: Essential
-    details: >-
-      When selecting an encrypted messaging app, ensure it's fully open source, stable, actively maintained,
-      and ideally backed by reputable developers.
-
-  - point: Check Security Settings
-    priority: Essential
-    details: >-
-      Enable security settings, including contact verification, security notifications, and encryption.
-      Disable optional non-security features such as read receipt, last online, and typing notification.
-
-  - point: Ensure your Recipients Environment is Secure
-    priority: Essential
-    details: >-
-      Your conversation can only be as secure as the weakest link. Often the easiest way to infiltrate a
-      communications channel is to target the individual or node with the least protection.
-
-  - point: Disable Cloud Services
-    priority: Essential
-    details: >-
-      Some mobile messaging apps offer a web or desktop companion. This not only increases attack surface but
-      it has been linked to several critical security issues, and should therefore be avoided, if possible.
-
-  - point: Secure Group Chats
-    priority: Essential
-    details: >-
-      The risk of compromise rises exponentially, the more participants are in a group, as the attack surface
-      increases. Periodically check that all participants are legitimate.
-
-  - point: Create a Safe Environment for Communication
-    priority: Essential
-    details: >-
-      There are several stages where your digital communications could be monitored or intercepted. This includes:
-      your or your participants' device, your ISP, national gateway or government logging, the messaging provider,
-      the servers.
-
-  - point: Agree on a Communication Plan
-    priority: Optional
-    details: >-
-      In certain situations, it may be worth making a communication plan. This should include primary and backup
-      methods of securely getting in hold with each other.
-
-  - point: Strip Meta-Data from Media
-    priority: Optional
-    details: >-
-      Metadata is "Data about Data" or additional information attached to a file or transaction. When you send a
-      photo, audio recording, video, or document you may be revealing more than you intended to.
-
-  - point: Defang URLs
-    priority: Optional
-    details: >-
-      Sending links via various services can unintentionally expose your personal information. This is because,
-      when a thumbnail or preview is generated- it happens on the client-side.
-
-  - point: Verify your Recipient
-    priority: Optional
-    details: >-
-      Always ensure you are talking to the intended recipient, and that they have not been compromised. One method
-      for doing so is to use an app which supports contact verification.
-
-  - point: Enable Ephemeral Messages
-    priority: Optional
-    details: >-
-      Self-destructing messages is a feature that causes your messages to automatically delete after a set amount
-      of time. This means that if your device is lost, stolen, or seized, an adversary will only have access to the
-      most recent communications.
-
-  - point: Avoid SMS
-    priority: Optional
-    details: >-
-      SMS may be convenient, but it's not secure. It is susceptible to threats such as interception, sim swapping,
-      manipulation, and malware.
-
-  - point: Watch out for Trackers
-    priority: Optional
-    details: >-
-      Be wary of messaging applications with trackers, as the detailed usage statistics they collect are often very
-      invasive, and can sometimes reveal your identity as well as personal information that you would otherwise not
-      intend to share.
-
-  - point: Consider Jurisdiction
-    priority: Advanced
-    details: >-
-      The jurisdictions where the organisation is based, and data is hosted should also be taken into account.
-
-  - point: Use an Anonymous Platform
-    priority: Advanced
-    details: >-
-      If you believe you may be targeted, you should opt for an anonymous messaging platform that does not require
-      a phone number, or any other personally identifiable information to sign up or use.
-
-  - point: Ensure Forward Secrecy is Supported
-    priority: Advanced
-    details: >-
-      Opt for a platform that implements forward secrecy. This is where your app generates a new encryption key
-      for every message.
-
-  - point: Consider a Decentralized Platform
-    priority: Advanced
-    details: >-
-      If all data flows through a central provider, you have to trust them with your data and meta-data. You cannot
-      verify that the system running is authentic without back doors.
-  softwareLinks:
-    - title: Secure Messaging Apps
-      url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
-    - title: P2P Messaging Platforms
-      url: https://github.com/Lissy93/awesome-privacy#p2p-messaging
-  color: cyan
-
-
-- title: Social Media
-  slug: social-media
-  description: Minimizing the risks associated with using online communities
-  icon: social
-  intro: >
-    Online communities have existed since the invention of the internet, and give
-    people around the world the opportunity to connect, communicate and share.
-    Although these networks are a great way to promote social interaction and
-    bring people together, that have a dark side - there are some serious
-    [Privacy Concerns with Social Networking Services](https://en.wikipedia.org/wiki/Privacy_concerns_with_social_networking_services),
-    and these social networking sites are owned by private corporations,
-    and that they make their money by collecting data about individuals and
-    selling that data on, often to third party advertisers.
-
-    Secure your account, lock down your privacy settings, but know that even
-    after doing so, all data intentionally and non-intentionally uploaded is
-    effectively public. If possible, avoid using conventional social media networks.
-  checklist:
-  - point: Secure your Account
-    priority: Essential
-    details: >-
-      Social media profiles get stolen or taken over all too often. To protect your account: use a unique
-      and strong password, and enable 2-factor authentication.
-
-  - point: Check Privacy Settings
-    priority: Essential
-    details: >-
-      Most social networks allow you to control your privacy settings. Ensure that you are comfortable with
-      what data you are currently exposing and to whom.
-
-  - point: Think of All Interactions as Public
-    priority: Essential
-    details: >-
-      There are still numerous methods of viewing a users 'private' content across many social networks.
-      Therefore, before uploading, posting or commenting on anything, think "Would I mind if this was totally public?"
-
-  - point: Think of All Interactions as Permanent
-    priority: Essential
-    details: >-
-      Pretty much every post, comment, photo etc is being continuously backed up by a myriad of third-party
-      services, who archive this data and make it indexable and publicly available almost forever.
-
-  - point: Don't Reveal too Much
-    priority: Essential
-    details: >-
-      Profile information creates a goldmine of info for hackers, the kind of data that helps them personalize
-      phishing scams. Avoid sharing too much detail (DoB, Hometown, School etc).
-
-  - point: Be Careful what you Upload
-    priority: Essential
-    details: >-
-      Status updates, comments, check-ins and media can unintentionally reveal a lot more than you intended
-      them to. This is especially relevant to photos and videos, which may show things in the background.
-
-  - point: Don't Share Email or Phone Number
-    priority: Essential
-    details: >-
-      Posting your real email address or mobile number, gives hackers, trolls and spammers more munition to
-      use against you, and can also allow separate aliases, profiles or data points to be connected.
-
-  - point: Don't Grant Unnecessary Permissions
-    priority: Essential
-    details: >-
-      By default many of the popular social networking apps will ask for permission to access your contacts,
-      call log, location, messaging history etc. If they don’t need this access, don’t grant it.
-
-  - point: Be Careful of 3rd-Party Integrations
-    priority: Essential
-    details: >-
-      Avoid signing up for accounts using a Social Network login, revoke access to social apps you no longer
-      use.
-
-  - point: Avoid Publishing Geo Data while still Onsite
-    priority: Essential
-    details: >-
-      If you plan to share any content that reveals a location, then wait until you have left that place.
-      This is particularly important when you are taking a trip, at a restaurant, campus, hotel/resort, public
-      building or airport.
-
-  - point: Remove metadata before uploading media
-    priority: Optional
-    details: >-
-      Most smartphones and some cameras automatically attach a comprehensive set of additional data (called
-      EXIF data) to each photograph. Remove this data before uploading.
-
-  - point: Implement Image Cloaking
-    priority: Advanced
-    details: >-
-      Tools like Fawkes can be used to very subtly, slightly change the structure of faces within photos in a
-      way that is imperceptible by humans, but will prevent facial recognition systems from being able to recognize
-      a given face.
-
-  - point: Consider Spoofing GPS in home vicinity
-    priority: Advanced
-    details: >-
-      Even if you yourself never use social media, there is always going to be others who are not as careful,
-      and could reveal your location.
-
-  - point: Consider False Information
-    priority: Advanced
-    details: >-
-      If you just want to read, and do not intend on posting too much- consider using an alias name, and false
-      contact details.
-
-  - point: Don’t have any social media accounts
-    priority: Advanced
-    details: >-
-      Social media is fundamentally un-private, so for maximum online security and privacy, avoid using any
-      mainstream social networks.
-
-  softwareLinks:
-    - title: Alternative Social Media
-      url: https://github.com/Lissy93/awesome-privacy#social-networks
-    - title: Alternative Video Platforms
-      url: https://github.com/Lissy93/awesome-privacy#video-platforms
-    - title: Alternative Blogging Platforms
-      url: https://github.com/Lissy93/awesome-privacy#blogging-platforms
-    - title: News Readers and Aggregation
-      url: https://github.com/Lissy93/awesome-privacy#news-readers-and-aggregation
-  color: blue
-
-
-- title: Networks
-  slug: networks
-  description: Safeguarding your network traffic
-  icon: network
-  intro: >
-    This section covers how you connect your devices to the internet securely,
-    including configuring your router and setting up a VPN.
-  checklist:
-  - point: Use a VPN
-    priority: Essential
-    details: >-
-      Use a reputable, paid-for VPN. This can help protect sites you visit from logging your real IP, reduce
-      the amount of data your ISP can collect, and increase protection on public WiFi.
-
-  - point: Change your Router Password
-    priority: Essential
-    details: >-
-      After getting a new router, change the password. Default router passwords are publicly available,
-      meaning anyone within proximity would be able to connect.
-
-  - point: Use WPA2, and a strong password
-    priority: Essential
-    details: >-
-      There are different authentication protocols for connecting to WiFi. Currently, the most secure options
-      are WPA2 and WPA3 (on newer routers).
-
-  - point: Keep router firmware up-to-date
-    priority: Essential
-    details: >-
-      Manufacturers release firmware updates that fix security vulnerabilities, implement new standards, and
-      sometimes add features or improve the performance of your router.
-
-  - point: Implement a Network-Wide VPN
-    priority: Optional
-    details: >-
-      If you configure your VPN on your router, firewall, or home server, then traffic from all devices will
-      be encrypted and routed through it, without needing individual VPN apps.
-
-  - point: Protect against DNS leaks
-    priority: Optional
-    details: >-
-      When using a VPN, it is extremely important to exclusively use the DNS server of your VPN provider or
-      secure service.
-
-  - point: Use a secure VPN Protocol
-    priority: Optional
-    details: >-
-      OpenVPN and WireGuard are open source, lightweight, and secure tunneling protocols. Avoid using PPTP
-      or SSTP.
-
-  - point: Secure DNS
-    priority: Optional
-    details: >-
-      Use DNS-over-HTTPS which performs DNS resolution via the HTTPS protocol, encrypting data between you
-      and your DNS resolver.
-
-  - point: Avoid the free router from your ISP
-    priority: Optional
-    details: >-
-      Typically they’re manufactured cheaply in bulk in China, with insecure propriety firmware that doesn't
-      receive regular security updates.
-
-  - point: Whitelist MAC Addresses
-    priority: Optional
-    details: >-
-      You can whitelist MAC addresses in your router settings, disallowing any unknown devices to immediately
-      connect to your network, even if they know your credentials.
-
-  - point: Change the Router’s Local IP Address
-    priority: Optional
-    details: >-
-      It is possible for a malicious script in your web browser to exploit a cross-site scripting vulnerability,
-      accessing known-vulnerable routers at their local IP address and tampering with them.
-
-  - point: Don't Reveal Personal Info in SSID
-    priority: Optional
-    details: >-
-      You should update your network name, choosing an SSID that does not identify you, include your flat
-      number/address, and does not specify the device brand/model.
-
-  - point: Opt-Out Router Listings
-    priority: Optional
-    details: >-
-      WiFi SSIDs are scanned, logged, and then published on various websites, which is a serious privacy
-      concern for some.
-
-  - point: Hide your SSID
-    priority: Optional
-    details: >-
-      Your router's Service Set Identifier is simply the network name. If it is not visible, it may receive
-      less abuse.
-
-  - point: Disable WPS
-    priority: Optional
-    details: >-
-      Wi-Fi Protected Setup provides an easier method to connect, without entering a long WiFi password, but
-      WPS introduces a series of major security issues.
-
-  - point: Disable UPnP
-    priority: Optional
-    details: >-
-      Universal Plug and Play allows applications to automatically forward a port on your router, but it has
-      a long history of serious security issues.
-
-  - point: Use a Guest Network for Guests
-    priority: Optional
-    details: >-
-      Do not grant access to your primary WiFi network to visitors, as it enables them to interact with other
-      devices on the network.
-
-  - point: Change your Router's Default IP
-    priority: Optional
-    details: >-
-      Modifying your router admin panel's default IP address will make it more difficult for malicious scripts
-      targeting local IP addresses.
-
-  - point: Kill unused processes and services on your router
-    priority: Optional
-    details: >-
-      Services like Telnet and SSH that provide command-line access to devices should never be exposed to the
-      internet and should also be disabled on the local network unless they're actually needed.
-
-  - point: Don't have Open Ports
-    priority: Optional
-    details: >-
-      Close any open ports on your router that are not needed. Open ports provide an easy entrance for hackers.
-
-  - point: Disable Unused Remote Access Protocols
-    priority: Optional
-    details: >-
-      When protocols such as PING, Telnet, SSH, UPnP, and HNAP etc are enabled, they allow your router to be
-      probed from anywhere in the world.
-
-  - point: Disable Cloud-Based Management
-    priority: Optional
-    details: >-
-      You should treat your router's admin panel with the utmost care, as considerable damage can be caused
-      if an attacker is able to gain access.
-
-  - point: Manage Range Correctly
-    priority: Optional
-    details: >-
-      It's common to want to pump your router's range to the max, but if you reside in a smaller flat, your
-      attack surface is increased when your WiFi network can be picked up across the street.
-
-  - point: Route all traffic through [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)
-    priority: Advanced
-    details: >-
-      VPNs have their weaknesses. For increased security, route all your internet traffic through the [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)
-      network.
-
-  - point: Disable WiFi on all Devices
-    priority: Advanced
-    details: >-
-      Connecting to even a secure WiFi network increases your attack surface. Disabling your home WiFi and
-      connect each device via Ethernet.
-  color: violet
-  softwareLinks:
-  - title: Virtual Private Networks
-    url: https://github.com/Lissy93/awesome-privacy#virtual-private-networks
-  - title: Mix Networks
-    url: https://github.com/Lissy93/awesome-privacy#mix-networks
-  - title: Router Firmware
-    url: https://github.com/Lissy93/awesome-privacy#router-firmware
-  - title: Open Source Proxies
-    url: https://github.com/Lissy93/awesome-privacy#proxies
-  - title: DNS Providers
-    url: https://github.com/Lissy93/awesome-privacy#dns
-  - title: Firewalls
-    url: https://github.com/Lissy93/awesome-privacy#firewalls
-  - title: Network Analysis Tools
-    url: https://github.com/Lissy93/awesome-privacy#network-analysis
-  - title: Self-Hosted Network Security Tools
-    url: https://github.com/Lissy93/awesome-privacy#self-hosted-network-security
-
-
-- title: Mobile Devices
-  slug: mobile-devices
-  description: Reduce invasive tracking for cells, smartphones and tablets
-  icon: mobile
-  intro: >
-    Smart phones have revolutionized so many aspects of life and brought the world
-    to our fingertips. For many of us, smart phones are our primary means of communication,
-    entertainment and access to knowledge. But while they've brought convenience
-    to whole new level, there's some ugly things going on behind the screen.
-
-    Geo-tracking is used to trace our every move, and we have little control over
-    who has this data- your phone is even able to
-    [track your location without GPS](https://gizmodo.com/how-to-track-a-cellphone-without-gps-or-consent-1821125371).
-    Over the years numerous reports that surfaced, outlining ways in which your
-    phone's [mic can eavesdrop](https://www.independent.co.uk/life-style/gadgets-and-tech/news/smartphone-apps-listening-privacy-alphonso-shazam-advertising-pool-3d-honey-quest-a8139451.html),
-    and the [camera can watch you](https://www.businessinsider.com/hackers-governments-smartphone-iphone-camera-wikileaks-cybersecurity-hack-privacy-webcam-2017-6)- all without your knowledge or consent.
-    And then there's the malicious apps, lack of security patches and potential/ likely backdoors.
-
-    Using a smart phone generates a lot of data about you- from information you
-    intentionally share, to data silently generated from your actions.
-    It can be scary to see what Google, Microsoft, Apple and Facebook know about
-    us- sometimes they know more than our closest family. It's hard to comprehend
-    what your data will reveal, especially in conjunction with other data.
-
-    This data is used for
-    [far more than just advertising](https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) -
-    more often it's used to rate people for finance, insurance and employment.
-    Targeted ads can even be used for fine-grained surveillance (see [ADINT](https://adint.cs.washington.edu))
-
-    More of us are concerned about how
-    [governments use collect and use our smart phone data](https://www.statista.com/statistics/373916/global-opinion-online-monitoring-government/),
-    and rightly so, federal agencies often
-    [request our data from Google](https://www.statista.com/statistics/273501/global-data-requests-from-google-by-federal-agencies-and-governments/),
-    [Facebook](https://www.statista.com/statistics/287845/global-data-requests-from-facebook-by-federal-agencies-and-governments/),
-    Apple, Microsoft, Amazon, and other tech companies. Sometimes requests are
-    made in bulk, returning detailed information on everybody within a certain geo-fence,
-    [often for innocent people](https://www.nytimes.com/interactive/2019/04/13/us/google-location-tracking-police.html).
-    And this doesn't include all of the internet traffic that intelligence agencies around the world have unhindered access to.
-  checklist:
-  - point: Encrypt your Device
-    priority: Essential
-    details: >-
-      In order to keep your data safe from physical access, use file encryption. This will mean if your
-      device is lost or stolen, no one will have access to your data.
-
-  - point: Turn off connectivity features that aren’t being used
-    priority: Essential
-    details: >-
-      When you're not using WiFi, Bluetooth, NFC etc, turn those features off. There are several common threats
-      that utilise these features.
-
-  - point: Keep app count to a minimum
-    priority: Essential
-    details: >-
-      Uninstall apps that you don’t need or use regularly. As apps often run in the background, slowing your
-      device down, but also collecting data.
-
-  - point: App Permissions
-    priority: Essential
-    details: >-
-      Don’t grant apps permissions that they don’t need. For Android, [Bouncer](https://awesome-privacy.xyz/security-tools/mobile-apps/bouncer) is an app that allows you to grant
-      temporary/ 1-off permissions.
-
-  - point: Only install Apps from official source
-    priority: Essential
-    details: >-
-      Applications on Apple App Store and Google Play Store are scanned and cryptographically signed, making them
-      less likely to be malicious.
-
-  - point: Be Careful of Phone Charging Threats
-    priority: Optional
-    details: >-
-      Juice Jacking is when hackers use public charging stations to install malware on your smartphone or tablet
-      through a compromised USB port.
-
-  - point: Set up a mobile carrier PIN
-    priority: Essential
-    details: >-
-      SIM hijacking is when a hacker is able to get your mobile number transferred to their sim. The easiest way
-      to protect against this is to set up a PIN through your mobile provider.
-
-  - point: Opt-out of Caller ID Listings
-    priority: Optional
-    details: >-
-      To keep your details private, you can unlist your number from caller ID apps like TrueCaller, CallApp, SyncMe,
-      and Hiya.
-
-  - point: Use Offline Maps
-    priority: Optional
-    details: >-
-      Consider using an offline maps app, such as OsmAnd or Organic Maps, to reduce data leaks from map apps.
-
-  - point: Opt-out of personalized ads
-    priority: Optional
-    details: >-
-      You can slightly reduce the amount of data collected by opting-out of seeing personalized ads.
-
-  - point: Erase after too many login attempts
-    priority: Optional
-    details: >-
-      To protect against an attacker brute forcing your pin, set your device to erase after too many failed
-      login attempts.
-
-  - point: Monitor Trackers
-    priority: Optional
-    details: >-
-      [εxodus](https://awesome-privacy.xyz/security-tools/online-tools/εxodus) is a great service which
-      lets you search for any app and see which trackers are embedded in it.
-
-  - point: Use a Mobile Firewall
-    priority: Optional
-    details: >-
-      To prevent applications from leaking privacy-sensitive data, you can install a firewall app.
-
-  - point: Reduce Background Activity
-    priority: Optional
-    details: >-
-      For Android, SuperFreeze makes it possible to entirely freeze all background activities on a per-app basis.
-
-  - point: Sandbox Mobile Apps
-    priority: Optional
-    details: >-
-      Prevent permission-hungry apps from accessing your private data with [Island](https://awesome-privacy.xyz/security-tools/mobile-apps/island), a sandbox environment.
-
-  - point: Tor Traffic
-    priority: Advanced
-    details: >-
-      [Orbot](https://awesome-privacy.xyz/security-tools/mobile-apps/orbot) provides
-      a system-wide Tor connection, which will help protect you from surveillance and public WiFi threats.
-
-  - point: Avoid Custom Virtual Keyboards
-    priority: Optional
-    details: >-
-      It is recommended to stick with your device's stock keyboard. If you choose to use a third-party keyboard app,
-      ensure it is reputable.
-
-  - point: Restart Device Regularly
-    priority: Optional
-    details: >-
-      Restarting your phone at least once a week will clear the app state cached in memory and may run more smoothly
-      after a restart.
-
-  - point: Avoid SMS
-    priority: Optional
-    details: >-
-      SMS should not be used to receive 2FA codes or for communication, instead use an encrypted messaging app,
-      such as [Signal](https://awesome-privacy.xyz/communication/encrypted-messaging/signal).
-
-  - point: Keep your Number Private
-    priority: Optional
-    details: >-
-      [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) allows
-      you to create and use virtual phone numbers for different people or groups. This is great for
-      compartmentalisation.
-
-  - point: Watch out for Stalkerware
-    priority: Optional
-    details: >-
-      Stalkerware is malware that is installed directly onto your device by someone you know.
-      The best way to get rid of it is through a factory reset.
-
-  - point: Favor the Browser, over Dedicated App
-    priority: Optional
-    details: >-
-      Where possible, consider using a secure browser to access sites,
-      rather than installing dedicated applications.
-
-  - point: Consider running a custom ROM (Android)
-    priority: Advanced
-    details: >-
-      If you're concerned about your device manufacturer collecting too much
-      personal information, consider a privacy-focused custom ROM.
-  color: fuchsia
-  softwareLinks:
-  - title: Mobile Apps, for Security + Privacy
-    url: https://github.com/Lissy93/awesome-privacy#mobile-apps
-  - title: Encrypted Messaging
-    url: https://github.com/Lissy93/awesome-privacy#encrypted-messaging
-  - title: Mobile Operation Systems
-    url: https://github.com/Lissy93/awesome-privacy#mobile-operating-systems
-
-
-- title: Personal Computers
-  slug: personal-computers
-  description: Securing your PC's operating system, data & activity
-  icon: computer
-  intro: >
-    Although Windows and OS X are easy to use and convenient, they both are far from secure.
-    Your OS provides the interface between hardware and your applications, so if
-    compromised can have detrimental effects.
-  checklist:
-  - point: Keep your System up-to-date
-    priority: Essential
-    details: >-
-      System updates contain fixes/patches for security issues, improve performance, and sometimes add new
-      features. Install new updates when prompted.
-
-  - point: Encrypt your Device
-    priority: Essential
-    details: >-
-      Use BitLocker for Windows, FileVault on MacOS, or LUKS on Linux, to enable full disk encryption. This
-      prevents unauthorized access if your computer is lost or stolen.
-
-  - point: Backup Important Data
-    priority: Essential
-    details: >-
-      Maintaining encrypted backups prevents loss due to ransomware, theft, or damage. Consider using
-      [Cryptomator](https://awesome-privacy.xyz/security-tools/mobile-apps/cryptomator)
-      for cloud files or [VeraCrypt](https://awesome-privacy.xyz/essentials/file-encryption/veracrypt) for USB drives.
-
-  - point: Be Careful Plugging USB Devices into your Computer
-    priority: Essential
-    details: >-
-      USB devices can pose serious threats. Consider making a USB sanitizer with CIRCLean to safely check USB
-      devices.
-
-  - point: Activate Screen-Lock when Idle
-    priority: Essential
-    details: >-
-      Lock your computer when away and set it to require a password on resume from screensaver or sleep to
-      prevent unauthorized access.
-
-  - point: Disable Cortana or Siri
-    priority: Essential
-    details: >-
-      Voice-controlled assistants can have privacy implications due to data sent back for processing. Disable
-      or limit their listening capabilities.
-
-  - point: Review your Installed Apps
-    priority: Essential
-    details: >-
-      Keep installed applications to a minimum to reduce exposure to vulnerabilities and regularly clear
-      application caches.
-
-  - point: Manage Permissions
-    priority: Essential
-    details: >-
-      Control which apps have access to your location, camera, microphone, contacts, and other sensitive
-      information.
-
-  - point: Disallow Usage Data from being sent to the Cloud
-    priority: Essential
-    details: >-
-      Limit the amount of usage information or feedback sent to the cloud to protect your privacy.
-
-  - point: Avoid Quick Unlock
-    priority: Essential
-    details: >-
-      Use a strong password instead of biometrics or short PINs for unlocking your computer to enhance
-      security.
-
-  - point: Power Off Computer, instead of Standby
-    priority: Essential
-    details: >-
-      Shut down your device when not in use, especially if your disk is encrypted, to keep data secure.
-
-  - point: Don't link your PC with your Microsoft or Apple Account
-    priority: Optional
-    details: >-
-      Use a local account only to prevent data syncing and exposure. Avoid using sync services that compromise
-      privacy.
-
-  - point: Check which Sharing Services are Enabled
-    priority: Optional
-    details: >-
-      Disable network sharing features you are not using to close gateways to common threats.
-
-  - point: Don't use Root/Admin Account for Non-Admin Tasks
-    priority: Optional
-    details: >-
-      Use an unprivileged user account for daily tasks and only elevate permissions for administrative changes
-      to mitigate vulnerabilities.
-
-  - point: Block Webcam + Microphone
-    priority: Optional
-    details: >-
-      Cover your webcam when not in use and consider blocking unauthorized audio recording to protect privacy.
-
-  - point: Use a Privacy Filter
-    priority: Optional
-    details: >-
-      Use a screen privacy filter in public spaces to prevent shoulder surfing and protect sensitive
-      information.
-
-  - point: Physically Secure Device
-    priority: Optional
-    details: >-
-      Use a Kensington Lock to secure your laptop in public spaces and consider port locks to prevent
-      unauthorized physical access.
-
-  - point: Don't Charge Devices from your PC
-    priority: Optional
-    details: >-
-      Use a power bank or AC wall charger instead of your PC to avoid security risks associated with USB
-      connections.
-
-  - point: Randomize your hardware address on Wi-Fi
-    priority: Optional
-    details: >-
-      Modify or randomize your MAC address to protect against tracking across different WiFi networks.
-
-  - point: Use a Firewall
-    priority: Optional
-    details: >-
-      Install a firewall app to monitor and block unwanted internet access by certain applications, protecting
-      against remote access attacks and privacy breaches.
-
-  - point: Protect Against Software Keyloggers
-    priority: Optional
-    details: >-
-      Use key stroke encryption tools to protect against software keyloggers recording your keystrokes.
-
-  - point: Check Keyboard Connection
-    priority: Optional
-    details: >-
-      Be vigilant for hardware keyloggers when using public or unfamiliar computers by checking keyboard
-      connections.
-
-  - point: Prevent Keystroke Injection Attacks
-    priority: Optional
-    details: >-
-      Lock your PC when away and consider using USBGuard or similar tools to protect against keystroke
-      injection attacks.
-
-  - point: Don't use commercial "Free" Anti-Virus
-    priority: Optional
-    details: >-
-      Rely on built-in security tools and avoid free anti-virus applications due to their potential for
-      privacy invasion and data collection.
-
-  - point: Periodically check for Rootkits
-    priority: Advanced
-    details: >-
-      Regularly check for rootkits to detect and mitigate full system control threats using tools like
-      [chkrootkit](https://awesome-privacy.xyz/operating-systems/linux-defenses/chkrootkit).
-
-  - point: BIOS Boot Password
-    priority: Advanced
-    details: >-
-      Enable a BIOS or UEFI password to add an additional security layer during boot-up, though be aware of
-      its limitations.
-
-  - point: Use a Security-Focused Operating System
-    priority: Advanced
-    details: >-
-      Consider switching to Linux or a security-focused distro like QubeOS or
-      [Tails](https://awesome-privacy.xyz/operating-systems/desktop-operating-systems/tails)
-      for enhanced privacy and
-      security.
-
-  - point: Make Use of VMs
-    priority: Advanced
-    details: >-
-      Use virtual machines for risky activities or testing suspicious software to isolate potential threats
-      from your primary system.
-
-  - point: Compartmentalize
-    priority: Advanced
-    details: >-
-      Isolate different programs and data sources from one another as much as possible to limit the extent of
-      potential breaches.
-
-  - point: Disable Undesired Features (Windows)
-    priority: Advanced
-    details: >-
-      Disable unnecessary Windows "features" and services that run in the background to reduce data collection
-      and resource use.
-
-  - point: Secure Boot
-    priority: Advanced
-    details: >-
-      Ensure that Secure Boot is enabled to prevent malware from replacing your boot loader and other critical
-      software.
-
-  - point: Secure SSH Access
-    priority: Advanced
-    details: >-
-      Take steps to protect SSH access from attacks by changing the default port, using SSH keys, and
-      configuring firewalls.
-
-  - point: Close Un-used Open Ports
-    priority: Advanced
-    details: >-
-      Turn off services listening on external ports that are not needed to protect against remote exploits and
-      improve security.
-
-  - point: Implement Mandatory Access Control
-    priority: Advanced
-    details: >-
-      Restrict privileged access to limit the damage that can be done if a system is compromised.
-
-  - point: Use Canary Tokens
-    priority: Advanced
-    details: >-
-      Deploy canary tokens to detect unauthorized access to your files or emails faster and gather
-      information about the intruder.
-  color: pink
-  softwareLinks:
-  - title: Secure Operating Systems
-    url: https://github.com/Lissy93/awesome-privacy#desktop-operating-systems
-  - title: Linux Defenses
-    url: https://github.com/Lissy93/awesome-privacy#linux-defences
-  - title: Windows Defenses
-    url: https://github.com/Lissy93/awesome-privacy#windows-defences
-  - title: Mac OS Defenses
-    url: https://github.com/Lissy93/awesome-privacy#mac-os-defences
-  - title: Anti-Malware
-    url: https://github.com/Lissy93/awesome-privacy#anti-malware
-  - title: Firewalls
-    url: https://github.com/Lissy93/awesome-privacy#firewalls-1
-  - title: File Encryption
-    url: https://github.com/Lissy93/awesome-privacy#file-encryption
-
-
-
-- title: Smart Home
-  slug: smart-home
-  description: Using IoT devices without compromising your privacy
-  icon: home
+  color: white
   intro: >-
-    Home assistants (such as Google Home, Alexa and Siri) and other internet connected
-    devices collect large amounts of personal data (including voice samples, location data,
-    home details and logs of all interactions). Since you have limited control on what is
-    being collected, how it's stored, and what it will be used for, this makes it hard to
-    recommend any consumer smart-home products to anyone who cares about privacy and security.
+    High traffic and high DR directories offer curated lists of startups that are highly regarded in various industries. 
+    By investing in a listing, your startup can reach a more targeted and serious audience, including potential investors, 
+    partners, and customers who are looking for credible and innovative solutions.
 
-    Security vs Privacy: There are many smart devices on the market that claim to increase
-    the security of your home while being easy and convenient to use (Such as Smart Burglar
-    Alarms, Internet Security Cameras, Smart Locks and Remote access Doorbells to name a few).
-    These devices may appear to make security easier, but there is a trade-off in terms of
-    privacy: as they collect large amounts of personal data, and leave you without control
-    over how this is stored or used. The security of these devices is also questionable,
-    since many of them can be (and are being) hacked, allowing an intruder to bypass
-    detection with minimum effort.
-
-    The most privacy-respecting option, would be to not use "smart" internet-connected
-    devices in your home, and not to rely on a security device that requires an internet
-    connection. But if you do, it is important to fully understand the risks of any given
-    product, before buying it. Then adjust settings to increase privacy and security.
-    The following checklist will help mitigate the risks associated with
-    internet-connected home devices.
   checklist:
-  - point: Rename devices to not specify brand/model
+  - point: IndexBug
     priority: Essential
     details: >-
-      Change default device names to something generic to prevent targeted attacks by obscuring brand or model information.
+      Ad: Best Ux Directory
 
-  - point: Disable microphone and camera when not in use
+
+
+      A curated directory for entrepreneurs featuring top apps, tools, courses, and blogs. 
+      Discover reliable resources with ease, thanks to our clutter-free, user-friendly interface.
+
+      Price: $100.00 / year. 
+
+    link: https://indexbug.com/
+  
+  - point: SourceForge
     priority: Essential
     details: >-
-      Use hardware switches to turn off microphones and cameras on smart devices to protect against accidental recordings or targeted access.
+      Domain Authority: 92
+      Monthly visits: 22.5M
 
-  - point: Understand what data is collected, stored and transmitted
+      Source forge is a saas product repository for business owners and startup founders to find and compare the saas products.
+    link: https://sourceforge.net/
+
+  - point: Product Hunt
     priority: Essential
     details: >-
-      Research and ensure comfort with the data handling practices of smart home devices before purchase, avoiding devices that share data with third parties.
+      Domain Authority: 91
+      Monthly visits: 4.4M
 
-  - point: Set privacy settings, and opt out of sharing data with third parties
+      Product Hunt is the #1 platform to launch your product. You can launch daily and compete with other products that are launched on that day.
+    link: https://www.producthunt.com/
+
+  - point: G2
     priority: Essential
     details: >-
-      Adjust app settings for strictest privacy controls and opt-out of data sharing with third parties wherever possible.
+      Domain Authority: 90
+      Monthly visits: 4.6M
 
-  - point: Don't link your smart home devices to your real identity
+      G2 is the largest software marketplace that helps businesses choose the right software. List your saas and reach more than 90M people.
+    link: https://www.g2.com/
+
+  - point: Hackernews Show HN
     priority: Essential
     details: >-
-      Use anonymous usernames and passwords, avoiding sign-up/log-in via social media or other third-party services to maintain privacy.
+      Domain Authority: 90
+      Monthly visits: 12M
 
-  - point: Keep firmware up-to-date
+      Hacker news is a forum of developers, builders and founders. Show HN is a place where you can share your product with HN users and let them try it out.
+    link: https://news.ycombinator.com/showhn.html
+
+  - point: Dev.to
     priority: Essential
     details: >-
-      Regularly update smart device firmware to apply security patches and enhancements.
+      Domain Authority: 89
+      Monthly visits: 11.4M
 
-  - point: Protect your Network
+      A community of developers who share their journey. If you're building a saas that helps developers, create an account and start posting here.
+    link: https://dev.to/
+
+  - point: Hacker Noon
     priority: Essential
     details: >-
-      Secure your home WiFi and network to prevent unauthorized access to smart devices.
+      Domain Authority: 88
+      Monthly visits: 2.3M
 
-  - point: Be wary of wearables
-    priority: Optional
-    details: >-
-      Consider the extensive data collection capabilities of wearable devices and their implications for privacy.
+      A place where developers share their journeys. Create an account and start posting about your products and journey.
+    link: https://hackernoon.com/
 
-  - point: Don't connect your home's critical infrastructure to the Internet
-    priority: Optional
+  - point: Gartner Digital Markets
+    priority: Essential
     details: >-
-      Evaluate the risks of internet-connected thermostats, alarms, and detectors due to potential remote access by hackers.
+      Domain Authority: 86
+      Monthly visits: 6.8M
 
-  - point: Mitigate Alexa/ Google Home Risks
-    priority: Optional
-    details: >-
-      Consider privacy-focused alternatives like
-      [Mycroft](https://awesome-privacy.xyz/smart-home-and-iot/voice-assistants/mycroft) or use
-      Project Alias to prevent idle listening by voice-activated assistants.
+      A network of review sites—Capterra, Software Advice, GetApp and UpCity. Submit your saas here and reach thousands of potential customers.
+    link: https://www.gartner.com/en/digital-markets/claim-profile
 
-  - point: Monitor your home network closely
-    priority: Optional
+  - point: SaaSHub
+    priority: Essential
     details: >-
-      Use tools like FingBox or router features to monitor for unusual network activity.
+      Domain Authority: 84
+      Monthly visits: 192.3K
 
-  - point: Deny Internet access where possible
-    priority: Advanced
-    details: >-
-      Use firewalls to block internet access for devices that don't need it, limiting operation to local network use.
+      SaaSHub is an independent software marketplace. You can list your product and reach a large audience of potential users.
+    link: https://www.saashub.com/
 
-  - point: Assess risks
-    priority: Advanced
+  - point: One Page Love
+    priority: Essential
     details: >-
-      Consider the privacy implications for all household members and adjust device settings for security and privacy, such as disabling devices at certain times.
-  color: red
-  softwareLinks:
+      Domain Authority: 81
+      Monthly visits: 34.2K
+
+      A showcase of the best one-page websites, templates and resources. Submit your SaaS here to reach thousands of designers and developers.
+    link: https://onepagelove.com/
+
+  - point: StackShare
+    priority: Essential
+    details: >-
+      Domain Authority: 79
+      Monthly visits: 622.8K
+
+      Find new tools, compare tools and find alternatives. You can submit your saas product on stack share and get more exposure.
+    link: https://stackshare.io/
+
+  - point: Alternative.to
+    priority: Essential
+    details: >-
+      Domain Authority: 79
+      Monthly visits: 6M
+
+      A place where people can find alternatives for apps and softwares. If you have competitors, list your product here.
+    link: https://www.alternativeto.net/
+
+  - point: Listly
+    priority: Essential
+    details: >-
+      Domain Authority: 78
+      Monthly visits: 169.9K
+
+      Create listicles and share on the web with listly website. Create a list to plug your saas organically and submit it to listly.
+    link: https://list.ly/
+
+  - point: Software Suggest
+    priority: Essential
+    details: >-
+      Domain Authority: 77
+      Monthly visits: 541.7K
+
+      Software suggest helps business founders to find the right saas. So, submit your product and put your product in front of 1,151,435+ businesses.
+    link: https://www.softwaresuggest.com/
+
+  - point: EU-Startups
+    priority: Essential
+    details: >-
+      Domain Authority: 76
+      Monthly visits: 428.2K
+
+      Leading online magazine about startups in Europe. You can pitch your startups or saas product here if your startup is in Europe.
+    link: https://www.eu-startups.com/
+
+  - point: Crozdesk
+    priority: Essential
+    details: >-
+      Domain Authority: 75
+      Monthly visits: 183K
+
+      Crozdesk is a website that helps businesses choose the right software. List your saas and reach thousands of buyers.
+    link: https://crozdesk.com/
+
+  - point: Killer Startups
+    priority: Essential
+    details: >-
+      Domain Authority: 74
+      Monthly visits: 43.1K
+
+      KillerStartups is a startup ranking and news site for startup founders. Submit your startup story and reach thousands of entrepreneurs.
+    link: https://www.killerstartups.com/
+
+- title: Difficult Subreddits
+  slug: difficult-subreddits
+  description: Navigate challenging subreddits to boost your startup's credibility.
+  icon: social
+  color: white
+  intro: >-
+    Some subreddits are known for their tough audiences and critical feedback. 
+    Successfully engaging with these communities can help you refine your startup's pitch, address concerns, and demonstrate resilience.
+
+  checklist:
+  - point: Entrepreneur
+    priority: Essential
+    details: >-
+      Number of Members: 3100000
+
+
+      A community of individuals who seek to solve problems, network professionally, collaborate on projects, and make the world a better place. 
+      Be professional, humble, and open to new ideas. Our community supports side hustles, small businesses, venture-backed startups, lemonade stands, 
+      1-person-grinds, and most forms of revenue generation! However, no one cares about your blog. Please do not come here to self-promote your consulting, 
+      book, podcast, MLM, website, dropshipping guide, or $$$ scheme.
+
+      Idea 1: Share the first win you achieved with your SaaS
+
+      Idea 2: Share how you were able to ship your SaaS faster/easier with AI or with help of a technology, that will be useful for entrepreneurs. Add steps on how you did it.
+
+    link: https://www.reddit.com/r/Entrepreneur/
+
+  - point: InternetIsBeautiful
+    priority: Essential
+    details: >-
+      Number of Members: 16700000
+
+
+      A subreddit based around sharing awesome, usually minimal and single-purpose websites and webtools.
+    link: https://www.reddit.com/r/InternetIsBeautiful/
+
+
+  - point: Entrepreneur Ride Along
+    priority: Essential
+    details: >-
+      Number of Members: 456000
+
+      A community of like-minded individuals that are looking to solve issues, network without spamming, talk about the growth of your business (Ride Along), challenges and high points, and collab on projects together. Stay classy, no racism, humble and work hard.
+    link: https://www.reddit.com/r/EntrepreneurRideAlong/
+
+  - point: startup
+    priority: Essential
+    details: >-
+      Number of Members: 128000
+
+      Reddit's space to learn the tools and skills necessary to build a successful startup. A community meant to support each other and grow through the exchange of knowledge and ideas. A rising tide lifts all ships in its wake.
+    link: https://www.reddit.com/r/startup/
+
+  - point: SaaS
+    priority: Essential
+    details: >-
+      Number of Members: 94100
+
+      Discussions and useful links for SaaS owners, online business owners, and more.
+    link: https://www.reddit.com/r/SaaS/
+
+  - point: Startup_Ideas
+    priority: Essential
+    details: >-
+      Number of Members: 71000
+
+      This subreddit is for sharing innovative startup ideas. Links and discussion about startups and descriptions of startups are welcome! Share ideas. Improve ideas. Expand upon other ideas. Combine ideas. Implement ideas.
+    link: https://www.reddit.com/r/Startup_Ideas/
+
+  - point: Entrepreneurship
+    priority: Essential
+    details: >-
+      Number of Members: 56600
+
+      A subreddit for entrepreneurs who run a business & sell products or services.
+    link: https://www.reddit.com/r/Entrepreneurship/
+
+  - point: Growmybusiness
+    priority: Essential
+    details: >-
+      Number of Members: 46700
+
+      This is the place to find and share creative advice to optimize your business growth.
+    link: https://www.reddit.com/r/growmybusiness/
+
+  - point: Advancedentrepreneur
+    priority: Essential
+    details: >-
+      Number of Members: 38400
+
+      A community for established entrepreneurs to share tips, tricks, and fundamentals on growing your business to the next level.
+    link: https://www.reddit.com/r/advancedentrepreneur/
+
+  - point: Entrepreneurs
+    priority: Essential
+    details: >-
+      Number of Members: 25600
+
+      A subreddit for entrepreneurs.
+    link: https://www.reddit.com/r/Entrepreneurs/
+
+- title: Indie Hackers
+  slug: indiehackers
+  description: Share your startup journey and gain support from fellow entrepreneurs.
+  icon: network
+  color: white
+  intro: >-
+    IndieHackers is a vibrant community of bootstrapped entrepreneurs. 
+    By sharing your startup story, progress, and challenges, you can get advice, support, and inspiration from like-minded individuals.
+
+  checklist:
+  - point: Share your MRR
+    priority: Essential
+    details: >-
+      Post idea: Share your MRR/Revenue & Write a detailed guide on how you achieved it
+
+    link: https://www.indiehackers.com/group/growth/
+
+  - point: Share your MRR
+    priority: Essential
+    details: >-
+      Post idea: Share your MRR/Revenue & Write a detailed guide on how you achieved it
+
+    link: https://www.indiehackers.com/group/growth/
+
+  - point: Lessons I learnt
+    priority: Essential
+    details: >-
+      Share the mistakes & lessons from your journey. Write a detailed post about the key takeaways.
+
+    link: https://www.indiehackers.com/group/lessons-learned/
+
+  - point: Roast my SaaS
+    priority: Essential
+    details: >-
+      Post idea: Ask the IH community to roast your SaaS product and provide constructive feedback.
+
+    link: https://www.indiehackers.com/group/landing-page-feedback/
+
+  - point: A Small Win
+    priority: Essential
+    details: >-
+      Post idea: Post a first small achievement of your SaaS and how you reached it.
+
+    link: https://www.indiehackers.com/group/building-in-public/
+
+  - point: Share a useful growth tip or strategy
+    priority: Essential
+    details: >-
+      Post idea: Share a useful tip or strategy that helped your SaaS grow.
+
+    link: https://www.indiehackers.com/group/growth/
+
+  - point: How you built your SaaS
+    priority: Essential
+    details: >-
+      Post idea: Write a buildinpublic post on how you built your SaaS, detailing the process and challenges.
+
+    link: https://www.indiehackers.com/group/building-in-public/
+
+  - point: Your SaaS Tech Stack
+    priority: Essential
+    details: >-
+      Post idea: Make a post sharing the tech stack you used to build your SaaS product.
+
+    link: https://www.indiehackers.com/group/tech-stack/
+
+  - point: A guide that will help your customers
+    priority: Essential
+    details: >-
+      Post idea: Write a listicle or guide that will help your customers or target audience.
+
+    link: https://www.indiehackers.com/group/growth/
+
+  - point: Weekly progress of your SaaS
+    priority: Essential
+    details: >-
+      Post idea: Start a series of posts on the weekly progress of your SaaS, sharing insights and milestones.
+
+    link: https://www.indiehackers.com/group/building-in-public/
+
+  - point: Do an AMA
+    priority: Essential
+    details: >-
+      Post idea: Share a recent milestone your SaaS achieved and do an AMA to engage with the community.
+
+    link: https://www.indiehackers.com/group/ama/
+
+  software_links:
+  - title: Create your SaaS
+    url: https://www.aiappsblocks.dev/
+
+- title: Newsletters
+  slug: newsletters
+  description: Get featured in startup newsletters for broader reach.
+  icon: mobile
+  color: white
+  intro: >-
+    Startup newsletters are a great way to reach a wide audience of potential users, investors, and partners. 
+    Being featured in these newsletters can significantly increase your startup's visibility and credibility.
+
+  checklist:
+  - point: Digital Samaritan
+    priority: Essential
+    details: >-
+      Submit your tool/SaaS to Digital Samaritan directory and get more users by putting it in front of over 5k+ startup founders.
+    link: https://www.digitalsamaritan.co/share-your-product
+
+- title: Discord & Slack
+  slug: discord-slack
+  description: Engage with startup communities on Discord and Slack for networking.
+  icon: computer
+  color: white
+  intro: >-
+    Discord and Slack communities offer real-time engagement with other startup founders, developers, and enthusiasts. 
+    Participating in these groups can help you network, get feedback, and stay updated on industry trends.
+
+  checklist:
+  - point: Grow Your Startup
+    priority: Essential
+    details: >-
+      GROW YOUR STARTUP is a new kind of entrepreneur advertising and growth community. 
+      Discuss and share business and money making strategies, get your startup ideas validated, get feedback on your personal projects and freely advertise nearly anything business related you want.
+    link: https://discord.gg/JcGuNVM/
+
+- title: LinkedIn & FB 
+  slug: linkedin-fb
+  description: Utilize LinkedIn and Facebook to connect with professionals and promote your startup.
+  icon: home
+  color: white
+  intro: >-
+    LinkedIn and Facebook are powerful platforms for professional networking and promotion. 
+    Leveraging these platforms can help you connect with industry experts, potential customers, and investors to grow your startup.
+
+  checklist:
+  - point: Growth Storytelling
+    priority: Essential
+    details: >-
+      Become more effective with your E-Commerce Store. Improve your Content Marketing, Storytelling, and Writing with StoryLab.ai’s Growth Storytelling Framework.
+    link: https://www.linkedin.com/groups/9137358/
+
+  software_links:
   - title: Home Automation
     url: https://github.com/Lissy93/awesome-privacy#home-automation
   - title: AI Voice Assistants
     url: https://github.com/Lissy93/awesome-privacy#ai-voice-assistants
 
-
-- title: Personal Finance
-  slug: personal-finance
-  description: Protecting your funds, financial accounts and transactions
+- title: Websites
+  slug: websites
+  description: List your startup on popular websites to increase exposure.
   icon: finance
+  color: white
   intro: >-
-    Credit card fraud is the most common form of identity theft (with [133,015 reports in the
-    US in 2017 alone](https://www.experian.com/blogs/ask-experian/identity-theft-statistics/)),
-    and a total loss of $905 million, which was a 26% increase from the previous year.
-    The with a median amount lost per person was $429 in 2017.
-    It's more important than ever to take basic steps to protect yourself from falling victim
+    Listing your startup on popular websites can drive significant traffic and interest. 
+    These platforms are often visited by potential users, investors, and partners looking for new and innovative startups.
 
-    Note about credit cards: Credit cards have technological methods in place to
-    detect and stop some fraudulent transactions. Major payment processors implement
-    this, by mining huge amounts of data from their card holders, in order to know
-    a great deal about each persons spending habits. This data is used to identify
-    fraud, but is also sold onto other data brokers. Credit cards are therefore good
-    for security, but terrible for data privacy.
   checklist:
-  - point: Sign up for Fraud Alerts and Credit Monitoring
+  - point: KillerStartups
     priority: Essential
     details: >-
-      Enable fraud alerts and credit monitoring through Experian, TransUnion, or Equifax to be alerted of suspicious activity.
+      KillerStartups is a community-focused startup ranking and news site. Sign up for our newsletter and more!
+    link: https://www.killerstartups.com/
 
-  - point: Apply a Credit Freeze
-    priority: Essential
-    details: >-
-      Prevent unauthorized credit inquiries by freezing your credit through Experian, TransUnion, and Equifax.
-
-  - point: Use Virtual Cards
-    priority: Optional
-    details: >-
-      Utilize virtual card numbers for online transactions to protect your real banking details. Services like [Privacy.com](https://awesome-privacy.xyz/finance/virtual-credit-cards/privacy.com) and [MySudo](https://awesome-privacy.xyz/finance/virtual-credit-cards/mysudo) offer such features.
-
-  - point: Use Cash for Local Transactions
-    priority: Optional
-    details: >-
-      Pay with [Cash](https://awesome-privacy.xyz/finance/other-payment-methods/cash) for local and everyday purchases to avoid financial profiling by institutions.
-
-  - point: Use Cryptocurrency for Online Transactions
-    priority: Optional
-    details: >-
-      Opt for privacy-focused cryptocurrencies like
-      [Monero](https://awesome-privacy.xyz/finance/cryptocurrencies/monero) for
-      online transactions to maintain anonymity. Use cryptocurrencies wisely to ensure privacy.
-
-  - point: Store Crypto Securely
-    priority: Advanced
-    details: >-
-      Securely store cryptocurrencies using offline wallet generation, hardware wallets
-      like [Trezor](https://awesome-privacy.xyz/finance/crypto-wallets/trezor) or
-      [ColdCard](https://awesome-privacy.xyz/finance/crypto-wallets/coldcard), or
-      consider long-term storage solutions like
-      [CryptoSteel](https://awesome-privacy.xyz/finance/crypto-wallets/cryptosteel).
-
-  - point: Buy Crypto Anonymously
-    priority: Advanced
-    details: >-
-      Purchase cryptocurrencies without linking to your identity through services
-      like [LocalBitcoins](https://awesome-privacy.xyz/finance/crypto-exchanges/localbitcoins),
-      [Bisq](https://awesome-privacy.xyz/finance/crypto-exchanges/bisq), or Bitcoin ATMs.
-
-  - point: Tumble/ Mix Coins
-    priority: Advanced
-    details: >-
-      Use a bitcoin mixer or CoinJoin before converting Bitcoin to currency to obscure transaction trails.
-
-  - point: Use an Alias Details for Online Shopping
-    priority: Advanced
-    details: >-
-      For online purchases, consider using alias details, forwarding email addresses, VOIP numbers, and secure delivery methods to protect your identity.
-
-  - point: Use alternate delivery address
-    priority: Advanced
-    details: >-
-      Opt for deliveries to non-personal addresses such as PO Boxes, forwarding addresses, or local pickup locations to avoid linking purchases directly to you.
-  color: purple
-  softwareLinks:
-  - title: Virtual Credit Cards
-    url: https://github.com/Lissy93/awesome-privacy#virtual-credit-cards
-  - title: Cryptocurrencies
-    url: https://github.com/Lissy93/awesome-privacy#cryptocurrencies
-  - title: Crypto Wallets
-    url: https://github.com/Lissy93/awesome-privacy#crypto-wallets
-  - title: Crypto Exchanges
-    url: https://github.com/Lissy93/awesome-privacy#crypto-exchanges
-  - title: Other Payment Methods
-    url: https://github.com/Lissy93/awesome-privacy#other-payment-methods
-  - title: Budgeting Tools
-    url: https://github.com/Lissy93/awesome-privacy#budgeting-tools
-
-- title: Human Aspect
-  slug: human-aspect
-  description: Avoiding social engineering security risks
+- title: Launch Services
+  slug: launch-services
+  description: Use launch services to maximize your startup's visibility and impact.
   icon: human
+  color: white
   intro: >-
-    Many data breaches, hacks and attacks are caused by human error.
-    The following list contains steps you should take, to reduce the risk of this
-    happening to you. Many of them are common sense, but it's worth takin note of.
+    Launch services provide a structured approach to introducing your startup to the market. 
+    They help you coordinate your launch strategy, reach a wider audience, and create a buzz around your product.
 
   checklist:
-  - point: Verify Recipients
+  - point: AI Directories
     priority: Essential
     details: >-
-      Emails can be easily spoofed. Verify the sender's authenticity, especially for sensitive actions, and prefer entering URLs manually rather than clicking links in emails.
+      We can help you launch your AI product to 100+ directories. Increase your domain authority and secure valuable backlinks to improve your SEO.
+    link: https://www.aidirectori.es/?ref=indexbug
 
-  - point: Don't Trust Your Popup Notifications
-    priority: Essential
-    details: >-
-      Fake pop-ups can be deployed by malicious actors. Always check the URL before entering any information on a popup.
-
-  - point: Never Leave Device Unattended
-    priority: Essential
-    details: >-
-      Unattended devices can be compromised even with strong passwords. Use encryption and remote erase features like Find My Phone for lost devices.
-
-  - point: Prevent Camfecting
-    priority: Essential
-    details: >-
-      Protect against camfecting by using webcam covers and microphone blockers. Mute home assistants when not in use or discussing sensitive matters.
-
-  - point: Stay protected from shoulder surfers
-    priority: Essential
-    details: >-
-      Use privacy screens on laptops and mobiles to prevent others from reading your screen in public spaces.
-
-  - point: Educate yourself about phishing attacks
-    priority: Essential
-    details: >-
-      Be cautious of phishing attempts. Verify URLs, context of received messages, and employ good security practices like using 2FA and not reusing passwords.
-
-  - point: Watch out for Stalkerware
-    priority: Essential
-    details: >-
-      Be aware of stalkerware installed by acquaintances for spying. Look out for signs like unusual battery usage and perform factory resets if suspected.
-
-  - point: Install Reputable Software from Trusted Sources
-    priority: Essential
-    details: >-
-      Only download software from legitimate sources and check files with tools
-      like [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total) before installation.
-
-  - point: Store personal data securely
-    priority: Essential
-    details: >-
-      Ensure all personal data on devices or in the cloud is encrypted to protect against unauthorized access.
-
-  - point: Obscure Personal Details from Documents
-    priority: Essential
-    details: >-
-      When sharing documents, obscure personal details with opaque rectangles to prevent information leakage.
-
-  - point: Do not assume a site is secure, just because it is `HTTPS`
-    priority: Essential
-    details: >-
-      HTTPS does not guarantee a website's legitimacy. Verify URLs and exercise caution with personal data.
-
-  - point: Use Virtual Cards when paying online
-    priority: Optional
-    details: >-
-      Use virtual cards for online payments to protect your banking details and limit transaction risks.
-
-  - point: Review application permissions
-    priority: Optional
-    details: >-
-      Regularly review and manage app permissions to ensure no unnecessary access to sensitive device features.
-
-  - point: Opt-out of public lists
-    priority: Optional
-    details: >-
-      Remove yourself from public databases and marketing lists to reduce unwanted contacts and potential risks.
-
-  - point: Never Provide Additional PII When Opting-Out
-    priority: Optional
-    details: >-
-      Do not provide additional personal information when opting out of data services to avoid further data collection.
-
-  - point: Opt-out of data sharing
-    priority: Optional
-    details: >-
-      Many apps and services default to data sharing settings. Opt out to protect your data from being shared with third parties.
-
-  - point: Review and update social media privacy
-    priority: Optional
-    details: >-
-      Regularly check and update your social media settings due to frequent terms updates that may affect your privacy settings.
-
-  - point: Compartmentalize
-    priority: Advanced
-    details: >-
-      Keep different areas of digital activity separate to limit data exposure in case of a breach.
-
-  - point: WhoIs Privacy Guard
-    priority: Advanced
-    details: >-
-      Use WhoIs Privacy Guard for domain registrations to protect your personal information from public searches.
-
-  - point: Use a forwarding address
-    priority: Advanced
-    details: >-
-      Use a PO Box or forwarding address for mail to prevent companies from knowing your real address, adding a layer of privacy protection.
-
-  - point: Use anonymous payment methods
-    priority: Advanced
-    details: >-
-      Opt for anonymous payment methods like cryptocurrencies to avoid entering identifiable information online.
-
-  color: indigo
-- title: Physical Security
-  slug: physical-security
-  description: Taking measures to prevent IRL security incidents
+- title: Exit Platforms
+  slug: exit-platforms
+  description: Plan your startup exit strategy with the help of exit platforms.
   icon: physical
+  color: white
   intro: >-
-    Public records often include sensitive personal data (full name, date of birth,
-    phone number, email, address, ethnicity etc), and are gathered from a range of
-    sources (census records, birth/ death/ marriage certificates, voter registrants,
-    marketing information, customer databases, motor vehicle records, professional/
-    business licenses and all court files in full detail). This sensitive personal
-    information is
-    [easy and legal to access](https://www.consumerreports.org/consumerist/its-creepy-but-not-illegal-for-this-website-to-provide-all-your-public-info-to-anyone/),
-    which raises some [serious privacy concerns](https://privacyrights.org/resources/public-records-internet-privacy-dilemma)
-    (identity theft, personal safety risks/ stalkers, destruction of reputations, dossier society)
-
-
-    CCTV is one of the major ways that the corporations, individuals and the government
-    tracks your movements. In London, UK the average person is caught on camera about
-    500 times per day. This network is continuing to grow, and in many cities around
-    the world, facial recognition is being rolled out, meaning the state can know
-    the identity of residents on the footage in real-time.
-
-    Strong authentication, encrypted devices, patched software and anonymous web
-    browsing may be of little use if someone is able to physically compromise you,
-    your devices and your data. This section outlines some basic methods for physical security
+    Exit platforms provide resources and connections to help you plan and execute a successful exit strategy. 
+    Whether you're looking to sell, merge, or transition, these platforms can guide you through the process.
 
   checklist:
-  - point: Destroy Sensitive Documents
+  - point: Acquire.com
     priority: Essential
-    details: |
-      Shred or redact sensitive documents before disposal to protect against
-      identity theft and maintain confidentiality.
-
-  - point: Opt-Out of Public Records
-    priority: Essential
-    details: |
-      Contact people search websites to opt-out from listings that show persona
-      information, using guides like Michael Bazzell's Personal Data Removal Workbook.
-
-  - point: Watermark Documents
-    priority: Essential
-    details: |
-      Add a watermark with the recipient's name and date to digital copies of
-      personal documents to trace the source of a breach.
-
-  - point: Don't Reveal Info on Inbound Calls
-    priority: Essential
-    details: |
-      Only share personal data on calls you initiate and verify the recipient's phone number.
-
-  - point: Stay Alert
-    priority: Essential
-    details: Be aware of your surroundings and assess potential risks in new environments.
-
-  - point: Secure Perimeter
-    priority: Essential
-    details: Ensure physical security of locations storing personal info devices, minimizing external access and using intrusion detection systems.
-
-  - point: Physically Secure Devices
-    priority: Essential
-    details: Use physical security measures like Kensington locks, webcam covers, and privacy screens for devices.
-
-  - point: Keep Devices Out of Direct Sight
-    priority: Essential
-    details: Prevent devices from being visible from outside to mitigate risks from lasers and theft.
-
-  - point: Protect your PIN
-    priority: Essential
-    details: Shield your PIN entry from onlookers and cameras, and clean touchscreens after use.
-
-  - point: Check for Skimmers
-    priority: Essential
-    details: Inspect ATMs and public devices for skimming devices and tampering signs before use.
-
-  - point: Protect your Home Address
-    priority: Optional
-    details: Use alternative locations, forwarding addresses, and anonymous payment methods to protect your home address.
-
-  - point: Use a PIN, Not Biometrics
-    priority: Advanced
-    details: Prefer PINs over biometrics for device security in situations where legal coercion to unlock devices may occur.
-
-  - point: Reduce exposure to CCTV
-    priority: Advanced
-    details: Wear disguises and choose routes with fewer cameras to avoid surveillance.
-
-  - point: Anti-Facial Recognition Clothing
-    priority: Advanced
-    details: Wear clothing with patterns that trick facial-recognition technology.
-
-  - point: Reduce Night Vision Exposure
-    priority: Advanced
-    details: Use IR light sources or reflective glasses to obstruct night vision cameras.
-
-  - point: Protect your DNA
-    priority: Advanced
-    details: Avoid sharing DNA with heritage websites and be cautious about leaving DNA traces.
-
-  color: lime
+    details: >-
+      Sell quickly, easily, and for the highest price. 
+      List your SaaS startup in front of 500k+ buyers. 
+      Get expert help to market and close. 
+      Start conversations that lead to acquisition in as little as 30 days.
+    link: https://acquire.com/
